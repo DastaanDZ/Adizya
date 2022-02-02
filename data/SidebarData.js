@@ -1,7 +1,7 @@
 
 const SidebarData = [
     {
-        title:'01 Lecture',
+        title:'01  Lecture',
         path:'/',
     },
     {
