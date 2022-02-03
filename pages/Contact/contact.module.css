@@ -1,0 +1,14 @@
+.contact_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #081832;
+  height: 100vh;
+  padding: 9rem;
+}
+.image {
+  flex: 1;
+}
+.content {
+  flex: 1;
+}
