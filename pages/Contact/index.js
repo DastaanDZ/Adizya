@@ -1,12 +1,15 @@
+import Adizya from "./../../assets/Adizya";
+
+import styles from '../../pages/Contact/contact.module.css';
+
 const contact = () => {
-  import Adizya from "./../../assets/Adizya";
   return (
     <>
-      <div className="contact_main">
-        <div className="image">
+      <div className={styles.contact_main}>
+        <div className={styles.image}>
           <Adizya />
         </div>
-        <div className="content">
+        <div className={styles.content}>
           <h1>Contact Us</h1>
           <tr>
             <th>Address</th>
@@ -25,3 +28,6 @@ const contact = () => {
 };
 
 export default contact;
+
+
+
