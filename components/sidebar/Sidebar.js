@@ -11,6 +11,7 @@ const Sidebar = (sidebar) => {
 
     return (
         <>
+        <div> 
         <div className={sidebar.sidebar ? styles.side_menu_active : styles.side_menu }>
         <ul className={styles.ul}>
             {SidebarData.map((items, index) =>{
@@ -28,6 +29,11 @@ const Sidebar = (sidebar) => {
             })}
         </ul>
         </div>
+        <div className={sidebar.sidebar ? styles.hidden_active : styles.hidden }>
+            <p className={styles.hidden_p}>Heelo</p>
+        </div>
+        </div>
+        
         {/* <div className={styles.open}> 
         <Larr onClick={showSidebar}/>
         </div> */}

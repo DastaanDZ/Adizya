@@ -2,9 +2,10 @@ import { useState } from "react"
 
 import Sidebar from "../../components/sidebar/Sidebar"
 import Larr from "../../assets/Larr"
+import Lec1 from "./Lec1"
+import Form from '../../components/registerform'
 
 import styles from '../lectures/lectures.module.css'
-import Lec1 from "./Lec1"
 
 const index = () => {
 
@@ -21,6 +22,7 @@ const index = () => {
                     <Larr onClick={showSidebar}/>
                 </div>
                 <Lec1/>
+                <Form/>
             </div>     
         </div>
 

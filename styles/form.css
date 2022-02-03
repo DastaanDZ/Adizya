@@ -1,0 +1,37 @@
+fieldset {
+  border: 0px;
+}
+label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: rgba(232, 235, 174, 0.52);
+  font-family: "Raleway", sans-serif !important;
+  display: block;
+}
+input[type="text"] {
+  appearance: none;
+  border: none;
+  background: #081832;
+  border-bottom: 2px #e8ebae;
+}
+input[type="text"]:focus {
+  outline: none;
+  color: white;
+  font-family: "Raleway", sans-serif !important;
+  font-size: 20px;
+}
+button {
+  border: none;
+  background: transparent;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #e8ebae;
+  cursor: pointer;
+}
+button:focus {
+  border-bottom: 2px #e8ebae;
+}

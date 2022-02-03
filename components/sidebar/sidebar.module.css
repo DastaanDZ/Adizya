@@ -1,7 +1,8 @@
 .side_menu_active {
-  width: 29.66rem;
-  height: auto;
+  height: 100vh;
   background: #e8ebae;
+  position: fixed;
+  animation: reveal 1sec linear delay;
 }
 .side_menu {
   width: 0rem;
@@ -35,7 +36,7 @@
 }
 .a {
   height: 100vh;
-  width: 6rem;
+  width: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,4 +47,24 @@
   position: relative;
   left: 0%;
   top: 0%;
+}
+.hidden_active {
+  background: #e8ebae;
+  height: 100%;
+  width: 20rem;
+}
+.hidden {
+  width: 0rem;
+  overflow: hidden;
+}
+.hidden_p {
+  margin: 0px;
+}
+@keyframes reveal {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }
