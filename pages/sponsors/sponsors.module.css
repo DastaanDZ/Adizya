@@ -1,16 +1,16 @@
 .title {
   margin-bottom: 4.33rem;
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
   margin-top: 0px;
+  margin-top: 3rem;
+  width: 90%;
 }
 .hr {
-  width: 70%;
+  width: 15%;
 }
 .container {
-  height: 100vh;
   background: #081832;
   display: flex;
   justify-content: center;
@@ -22,12 +22,20 @@
 .image_container {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: 90%;
   height: 100%;
   flex-wrap: wrap;
 }
 .image {
-  width: 28.11rem;
-  height: 15.055rem;
+  width: 24.11rem;
+  height: 17.055rem;
   margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+.icon {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 129px;
+  cursor: pointer;
 }

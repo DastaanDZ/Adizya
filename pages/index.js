@@ -1,10 +1,9 @@
-import Sidebar from "../components/sidebar/Sidebar";
-import Lectures from "../pages/lectures";
+import Landing from '../pages/landing'
 
 export default function Home() {
   return (
     <>
-      <Lectures />
+      <Landing/>
     </>
   );
 }

@@ -22,7 +22,7 @@ const index = () => {
                     <Larr onClick={showSidebar}/>
                 </div>
                 <Lec1/>
-                <Form/>
+                {/* <Form/> */}
             </div>     
         </div>
 
