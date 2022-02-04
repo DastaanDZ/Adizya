@@ -1,4 +1,6 @@
 import Adizya from "./../../assets/Adizya";
+import Linkden from "./../../assets/Linkden";
+import Insta from "./../../assets/Insta";
 
 import styles from '../../pages/Contact/contact.module.css';
 
@@ -23,7 +25,7 @@ const contact = () => {
           <tr>
             <td>Nec, magna id sed mattis nibh</td>
             <td>90909029 29302932039203</td>
-            <td></td>
+            <td><Linkden/> <Insta/></td>
           </tr>
         </div>
       </div>
