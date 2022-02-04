@@ -2,7 +2,7 @@
   height: 100vh;
   background: #e8ebae;
   position: fixed;
-  animation: reveal 1sec linear delay;
+  animation: reveal 10sec linear delay;
 }
 .side_menu {
   width: 0rem;

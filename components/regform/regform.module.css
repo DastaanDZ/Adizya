@@ -36,14 +36,19 @@
 .gen_btn_container {
   display: flex;
   justify-content: space-between;
-  width: 23rem;
+  /* width: 23rem; */
   align-items: center;
 }
 .gen_button {
   border: 0.588068px solid rgba(232, 235, 174, 0.43);
   border-radius: 2.94034px;
-  height: 2rem;
+  height: 1.5rem;
   color: rgba(232, 235, 174, 0.43);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.5852px;
+  line-height: 12px;
 }
 .btn_container {
   display: flex;
