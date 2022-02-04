@@ -1,12 +1,3 @@
-.h1 {
-  margin-bottom: 12.75px;
-  color: #e8ebae;
-  font-family: "Raleway", sans-serif !important;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 50px;
-  line-height: 75px;
-}
 .h2 {
   margin-bottom: 12.75px;
   color: #e8ebae;
@@ -16,9 +7,7 @@
   font-size: 36px;
 }
 .hr {
-  margin: 0;
   width: 11%;
-  color: #e8ebae;
 }
 .desc {
   font-family: "Raleway", sans-serif !important;

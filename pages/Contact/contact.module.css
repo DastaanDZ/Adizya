@@ -11,4 +11,24 @@
 }
 .content {
   flex: 1;
+  height: 100%;
+}
+.hr {
+  width: 40%;
+}
+.title {
+  margin-bottom: 4.33rem;
+}
+.info {
+  display: flex;
+  text-align: left;
+}
+.detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.h1 {
+  font-size: 50px;
+  font-weight: 500;
 }

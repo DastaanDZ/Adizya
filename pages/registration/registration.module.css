@@ -1,0 +1,19 @@
+.regform {
+  background: #081832;
+  padding: 1rem 2rem;
+}
+.image {
+  width: 33rem;
+  height: 29.7rem;
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+.image_container {
+  height: 100%;
+}
+.regform_container {
+  margin-left: 2rem;
+  width: 100%;
+}

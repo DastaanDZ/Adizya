@@ -10,7 +10,11 @@ const contact = () => {
           <Adizya />
         </div>
         <div className={styles.content}>
-          <h1>Contact Us</h1>
+        <div className={styles.title}> 
+       <h1 className={styles.h1}>Contact Us</h1>
+       <hr className={styles.hr}/>
+       </div>
+       <div className={styles.info}> 
           <tr>
             <th>Address</th>
             <th>Phone</th>
@@ -23,6 +27,7 @@ const contact = () => {
           </tr>
         </div>
       </div>
+       </div>
     </>
   );
 };
