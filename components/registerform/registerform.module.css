@@ -5,6 +5,7 @@
   font-style: normal;
   font-weight: 100;
   font-size: 36px;
+  margin-top: 3rem;
 }
 .hr {
   margin: 0;
@@ -14,12 +15,16 @@
 .button {
   display: flex;
   align-items: center;
-  justify-content: center;
+  margin-top: 2rem;
+  justify-content: flex-end;
 }
 .space {
   width: 100%;
   height: 10rem;
 }
 .form_title {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+.register_form {
+  width: 36%;
 }

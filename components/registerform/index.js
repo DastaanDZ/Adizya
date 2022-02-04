@@ -19,7 +19,7 @@ const index = () => {
        <h2 className={styles.h2}>Register</h2>
        <hr className={styles.hr}/>
     </div>
-      <form className='register-form' onSubmit={handleSubmit}>
+      <form className={styles.register_form} onSubmit={handleSubmit}>
 				<fieldset >
 					<label >Name*</label>
 					<input type='text' name='name' value={form.name} onChange={handleChange} required />
