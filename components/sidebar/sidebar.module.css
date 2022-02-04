@@ -60,6 +60,7 @@
 .hidden_p {
   margin: 0px;
 }
+
 @keyframes reveal {
   0% {
     width: 0%;
@@ -67,4 +68,38 @@
   100% {
     width: 100%;
   }
+}
+@media (max-width: 768px) {
+  .side_menu_active {
+    position: inherit;
+  }
+  .side_menu {
+    height: 0rem;
+    overflow: hidden;
+  }
+  .hidden_active {
+    display: none;
+  }
+  .hidden {
+    display: none;
+    height: 0rem;
+    overflow: hidden;
+  }
+  .ul {
+    flex-direction: column;
+  }
+  .sidebar_title {
+    transform: rotate(0deg);
+  }
+  .a,
+  .ul,
+  .side_menu_active {
+    height: auto;
+  }
+  .li {
+    height: 3rem;
+  }
+}
+
+@media (max-width: 550px) {
 }

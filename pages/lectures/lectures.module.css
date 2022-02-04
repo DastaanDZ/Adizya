@@ -1,12 +1,60 @@
 .container {
   display: flex;
+  height: 100%;
 }
 .page {
   background: #081832;
   width: 100%;
   padding-left: 4.33rem;
   padding-top: 45px;
+  height: 100%;
 }
 .open {
   cursor: pointer;
+}
+.mobile_top_div {
+  display: none;
+}
+@media (max-width: 1220px) {
+}
+
+@media (max-width: 1024px) {
+  .page {
+    padding-right: 1rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .icon {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 129px;
+    cursor: pointer;
+  }
+  .login {
+    padding-right: 2rem;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    font-family: "Raleway", sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 31px;
+    color: #e8ebae;
+    cursor: pointer;
+  }
+  .mobile_top_div {
+    display: grid;
+    height: 6.2rem;
+    background: #081832;
+  }
+}
+
+@media (max-width: 550px) {
 }
