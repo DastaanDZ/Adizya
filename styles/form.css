@@ -14,13 +14,12 @@ input[type="text"] {
   appearance: none;
   border: none;
   background: #081832;
-  border-bottom: 2px #e8ebae;
+  border-bottom: 1px solid rgba(232, 235, 174, 0.43);
 }
 input[type="text"]:focus {
   outline: none;
   color: white;
   font-family: "Raleway", sans-serif !important;
-  font-size: 20px;
 }
 button {
   border: none;

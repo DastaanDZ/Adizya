@@ -4,13 +4,15 @@
 }
 .image {
   width: 33rem;
-  height: 29.7rem;
+  height: 23.7rem;
 }
 .container {
   display: flex;
   height: 100vh;
   flex-direction: column;
-  padding: 2rem;
+  padding: 1rem 0 2rem 2rem;
+  width: 100%;
+  justify-content: space-around;
 }
 .image_container {
   height: 100%;
@@ -21,7 +23,7 @@
 }
 .img_form_container {
   display: flex;
-  margin-top: 4.6rem;
+  padding-bottom: 8rem;
 }
 .open {
   display: flex;
