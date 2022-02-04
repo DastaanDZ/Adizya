@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+}
+.page {
+  background: #081832;
+  width: 100%;
+  padding-left: 4.33rem;
+  padding-top: 45px;
+}
+.open {
+  cursor: pointer;
+}

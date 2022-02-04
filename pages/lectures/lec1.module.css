@@ -1,0 +1,30 @@
+.h2 {
+  margin-bottom: 12.75px;
+  color: #e8ebae;
+  font-family: "Raleway", sans-serif !important;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+}
+.hr {
+  width: 11%;
+}
+.desc {
+  font-family: "Raleway", sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #e8ebae;
+}
+.pic {
+  width: 380px;
+  height: 310px;
+  float: left;
+  margin: 1.56rem;
+}
+.info {
+  display: flex;
+}
+.title {
+  margin-bottom: 4.33rem;
+}

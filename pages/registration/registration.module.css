@@ -1,0 +1,34 @@
+.regform {
+  background: #081832;
+  display: flex;
+}
+.image {
+  width: 33rem;
+  height: 23.7rem;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  padding: 1rem 0 2rem 2rem;
+  width: 100%;
+  justify-content: space-around;
+}
+.image_container {
+  height: 100%;
+}
+.regform_container {
+  margin-left: 2rem;
+  width: 100%;
+}
+.img_form_container {
+  display: flex;
+  padding-bottom: 8rem;
+}
+.open {
+  display: flex;
+  align-items: center;
+}
+.h1 {
+  margin: 0 0 0 2rem;
+}
