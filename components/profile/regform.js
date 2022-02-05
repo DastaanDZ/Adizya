@@ -1,18 +1,35 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { useUserContext } from "@/context/userContext";
-import styles from "../regform/regform.module.css";
+import styles from "./regform.module.css";
 import updateMe from "@/lib/updateMe";
 import { useRouter } from "next/router";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import getMe from "@/lib/getMe";
 
-const Index = () => {
-  const { auth, name, setName, id } = useUserContext();
+const ProfileReg = () => {
+  const { auth, name, setName, id, setId } = useUserContext();
+  const [inst, setInst] = useState();
+  const [state, setState] = useState();
+  const [phoneNo, setPhoneNo] = useState();
+  const [yos, setYos] = useState();
   const [gender, setGender] = useState();
   const router = useRouter();
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    if (localStorage.getItem("uid")) {
+      getMe(localStorage.getItem("uid")).then((res) => {
+        setName(res.name);
+        setInst(res.inst);
+        setState(res.State);
+        setPhoneNo(res.phoneno);
+        setYos(res.yos);
+        setGender(res.gender);
+        setId(res.customId);
+      });
+    } else router.push("/");
+  }, []);
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -68,17 +85,17 @@ const Index = () => {
 
           <fieldset className={styles.fieldset}>
             <label>School/College</label>
-            <input type="text" name="INST" />
+            <input type="text" name="INST" value={inst} />
           </fieldset>
 
           <fieldset className={styles.fieldset}>
             <label>State</label>
-            <input type="text" name="state" />
+            <input type="text" name="state" value={state} />
           </fieldset>
 
           <fieldset className={styles.fieldset}>
             <label>Phone Number</label>
-            <input type="text" name="phoneno" />
+            <input type="text" name="phoneno" value={phoneNo} />
           </fieldset>
         </div>
         <div className={styles.part2}>
@@ -89,7 +106,7 @@ const Index = () => {
 
           <fieldset className={styles.fieldset}>
             <label>Year Of Study</label>
-            <input type="text" name="yos" />
+            <input type="text" name="yos" value={yos} />
           </fieldset>
 
           <fieldset className={styles.fieldset}>
@@ -147,4 +164,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default ProfileReg;
