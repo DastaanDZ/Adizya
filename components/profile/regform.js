@@ -85,17 +85,38 @@ const ProfileReg = () => {
 
           <fieldset className={styles.fieldset}>
             <label>School/College</label>
-            <input type="text" name="INST" value={inst} />
+            <input
+              type="text"
+              name="INST"
+              value={inst}
+              onChange={(e) => {
+                setInst(e.target.value);
+              }}
+            />
           </fieldset>
 
           <fieldset className={styles.fieldset}>
             <label>State</label>
-            <input type="text" name="state" value={state} />
+            <input
+              type="text"
+              name="state"
+              value={state}
+              onChange={(e) => {
+                setState(e.target.value);
+              }}
+            />
           </fieldset>
 
           <fieldset className={styles.fieldset}>
             <label>Phone Number</label>
-            <input type="text" name="phoneno" value={phoneNo} />
+            <input
+              type="text"
+              name="phoneno"
+              value={phoneNo}
+              onChange={(e) => {
+                setPhoneNo(e.target.value);
+              }}
+            />
           </fieldset>
         </div>
         <div className={styles.part2}>
@@ -106,13 +127,21 @@ const ProfileReg = () => {
 
           <fieldset className={styles.fieldset}>
             <label>Year Of Study</label>
-            <input type="text" name="yos" value={yos} />
+            <input
+              type="text"
+              name="yos"
+              value={yos}
+              onChange={(e) => {
+                setYos(e.target.value);
+              }}
+            />
           </fieldset>
 
           <fieldset className={styles.fieldset}>
             <div className={styles.gen_btn_container}>
               <label>Gender</label>
               <button
+                style={{ color: gender === "MALE" ? "red" : "" }}
                 className={styles.gen_button}
                 onClick={(e) => {
                   e.preventDefault();
@@ -122,6 +151,7 @@ const ProfileReg = () => {
                 MALE
               </button>
               <button
+                style={{ color: gender === "FEMALE" ? "red" : "" }}
                 className={styles.gen_button}
                 onClick={(e) => {
                   e.preventDefault();
@@ -131,6 +161,7 @@ const ProfileReg = () => {
                 FEMALE
               </button>
               <button
+                style={{ color: gender === "OTHER" ? "red" : "" }}
                 className={styles.gen_button}
                 onClick={(e) => {
                   e.preventDefault();
