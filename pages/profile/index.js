@@ -23,7 +23,7 @@ const Index = () => {
         <div className={styles.container}>
           <div className={styles.open}>
             <Larr onClick={showSidebar} />
-            <h1 className={styles.h1}>Registration</h1>
+            <h1 className={styles.h1}>Profile</h1>
           </div>
           <div className={styles.img_form_container}>
             <div className={styles.image_container}>

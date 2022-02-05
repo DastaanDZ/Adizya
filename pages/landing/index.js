@@ -33,6 +33,7 @@ const index = () => {
             Logout
           </p>
         )}
+        <p className={styles.profile}>Profile</p>
         <div className={styles.hero_container}>
           <Hero />
         </div>
