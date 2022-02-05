@@ -14,9 +14,6 @@
   cursor: pointer;
 }
 .login {
-  position: absolute;
-  right: 0%;
-  top: 0%;
   font-family: "Raleway", sans-serif !important;
   font-style: normal;
   font-weight: normal;
@@ -25,7 +22,26 @@
   cursor: pointer;
   border: 0.1px solid #e8ebae;
   border-radius: 23px;
-  margin-right: 2rem;
   padding: 1.5px 12.5px;
   font-size: 15px;
+  margin-left: 1rem;
+}
+.profile {
+  font-family: "Raleway", sans-serif !important;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 31px;
+  color: #e8ebae;
+  cursor: pointer;
+  border: 0.1px solid #e8ebae;
+  border-radius: 23px;
+  padding: 1.5px 12.5px;
+  font-size: 15px;
+}
+.login_profile_container {
+  position: absolute;
+  top: 0;
+  right: 2rem;
+  display: flex;
+  flex-direction: row-reverse;
 }

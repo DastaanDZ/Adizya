@@ -14,6 +14,7 @@ const index = () => {
         <Link href="/">
           <img src={icon.src} alt="xxx" className={styles.icon} />
         </Link>
+        <div className={styles.login_profile_container}> 
         {!auth.userIsLogIn ? (
           <p
             className={styles.login}
@@ -33,6 +34,8 @@ const index = () => {
             Logout
           </p>
         )}
+        <p className={styles.profile}>Profile</p>
+        </div>
         <div className={styles.hero_container}>
           <Hero />
         </div>
