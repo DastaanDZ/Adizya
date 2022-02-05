@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+}
+.page {
+  background-color: red;
+}
+.open {
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.reveal {
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+  background: transparent;
+  opacity: 0;
+}
+.reveal:hover {
+  opacity: 1;
+}

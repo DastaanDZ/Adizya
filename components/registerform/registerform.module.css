@@ -1,0 +1,30 @@
+.h2 {
+  margin-bottom: 12.75px;
+  color: #e8ebae;
+  font-family: "Raleway", sans-serif !important;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 36px;
+  margin-top: 3rem;
+}
+.hr {
+  margin: 0;
+  width: 11%;
+  color: #e8ebae;
+}
+.button {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  justify-content: flex-end;
+}
+.space {
+  width: 100%;
+  height: 10rem;
+}
+.form_title {
+  margin-bottom: 3rem;
+}
+.register_form {
+  width: 36%;
+}

@@ -1,0 +1,111 @@
+.h2 {
+  margin-bottom: 12.75px;
+  color: #e8ebae;
+  font-family: "Raleway", sans-serif !important;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 36px;
+  margin-top: 0px;
+}
+.hr {
+  margin: 0;
+  width: 11%;
+  color: #e8ebae;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.588068px solid rgba(232, 235, 174, 0.43);
+  border-radius: 6.55px;
+  width: 131px;
+  height: 38px;
+}
+.space {
+  width: 100%;
+  height: 10rem;
+}
+.form_title {
+  margin-bottom: 2rem;
+}
+.register_form {
+  display: flex;
+  justify-content: space-between;
+  height: 76%;
+}
+.gen_btn_container {
+  display: flex;
+  justify-content: space-between;
+  /* width: 23rem; */
+  align-items: center;
+}
+.gen_button {
+  border: 0.588068px solid rgba(232, 235, 174, 0.43);
+  border-radius: 2.94034px;
+  height: 1.5rem;
+  color: rgba(232, 235, 174, 0.43);
+  font-family: "Raleway", sans-serif !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.585px;
+  line-height: 12px;
+}
+.btn_container {
+  display: flex;
+  padding: 0.8rem;
+}
+.part1,
+.part2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.part1 {
+  width: 40%;
+}
+.part2 {
+  width: 60%;
+}
+@media (max-width: 1400px) {
+  .gen_button {
+    font-size: 9.585px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .gen_button {
+    font-size: 6.585px;
+  }
+}
+@media (max-width: 1024px) {
+  .gen_button {
+    font-size: 9.585px;
+  }
+}
+
+@media (max-width: 768px) {
+  .register_form {
+    flex-direction: column;
+  }
+  .part1,
+  .part2 {
+    width: 100%;
+  }
+  .h2 {
+    display: none;
+  }
+  .hr {
+    display: none;
+  }
+  .gen_button {
+    font-size: 14.585px;
+    width: 6rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .gen_button {
+    font-size: 12.585px;
+    width: 4rem;
+  }
+}

@@ -1,0 +1,41 @@
+.title {
+  margin-bottom: 4.33rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-top: 3rem;
+  width: 90%;
+}
+.hr {
+  width: 15%;
+}
+.container {
+  background: #081832;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+  padding-top: 1rem;
+}
+.image_container {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.image {
+  width: 24.11rem;
+  height: 17.055rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+.icon {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 129px;
+  cursor: pointer;
+}
