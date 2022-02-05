@@ -6,7 +6,7 @@ import icon from '../../assets/images/icon.png'
 import styles from "./../exhibition/exhibition.module.css";
 import Link from "next/link";
 
-const index = () => {
+const Index = () => {
 
   return (
     <>
@@ -22,9 +22,8 @@ const index = () => {
           {exhibitionData.map((items, index) => {
             console.log(items.pic.src);
             return (
-              <div className={styles.each_img_container}> 
+              <div key={index} className={styles.each_img_container}> 
               <img
-                key={index}
                 src={items.pic.src}
                 alt="xxx"
                 className={styles.image}
@@ -38,4 +37,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

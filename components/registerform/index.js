@@ -2,7 +2,7 @@ import { useState } from "react"
 
 import styles from '../registerform/registerform.module.css'
 
-const index = () => {
+const Index = () => {
     
     const [form, setForm] = useState({ name: '', inst: '',phone: '' })
 
@@ -41,4 +41,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index

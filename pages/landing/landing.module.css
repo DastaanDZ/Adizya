@@ -14,15 +14,18 @@
   cursor: pointer;
 }
 .login {
-  padding-right: 2rem;
   position: absolute;
   right: 0%;
   top: 0%;
   font-family: "Raleway", sans-serif !important;
   font-style: normal;
   font-weight: normal;
-  font-size: 26px;
   line-height: 31px;
   color: #e8ebae;
   cursor: pointer;
+  border: 0.1px solid #e8ebae;
+  border-radius: 23px;
+  margin-right: 2rem;
+  padding: 1.5px 12.5px;
+  font-size: 15px;
 }

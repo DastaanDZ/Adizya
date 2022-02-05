@@ -8,7 +8,7 @@ import icon from '../../assets/images/icon.png'
 
 import styles from '../registration/registration.module.css'
 
-const index = () => {
+const Index = () => {
 
   const [sidebar, setSidebar] = useState(true)
 
@@ -43,4 +43,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index

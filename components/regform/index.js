@@ -3,7 +3,7 @@ import { useState } from "react";
 
 import styles from "../regform/regform.module.css";
 
-const index = () => {
+const Index = () => {
   const [form, setForm] = useState({
     name: "",
     inst: "",
@@ -108,4 +108,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

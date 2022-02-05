@@ -9,7 +9,7 @@ import icon from '../../assets/images/icon.png'
 
 import styles from '../lectures/lectures.module.css'
 
-const index = () => {
+const Index = () => {
 
     const [sidebar, setSidebar] = useState(true)
 
@@ -38,4 +38,4 @@ const index = () => {
     )
 }
 
-export default index
+export default Index
