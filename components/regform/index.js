@@ -40,7 +40,7 @@ const Index = () => {
   return (
     <>
       <div className={styles.form_title}>
-        <h2 className={styles.h2}>Register</h2>
+        <h2 className={styles.h2}>Fill Details</h2>
         <hr className={styles.hr} />
       </div>
       <form
