@@ -32,3 +32,89 @@
 .h1 {
   margin: 0 0 0 2rem;
 }
+.mobile_top_div {
+  display: none;
+}
+@media (max-width: 1400px) {
+  .img_form_container {
+    width: 100%;
+  }
+  .image_container {
+    width: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .image {
+    width: 100%;
+  }
+  .regform_container {
+    width: 50%;
+  }
+  .container {
+    height: auto;
+  }
+}
+
+@media (max-width: 1220px) {
+}
+@media (max-width: 1024px) {
+  .img_form_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+  }
+  .regform_container {
+    width: 100%;
+  }
+  .image_container {
+    width: 100%;
+  }
+  .container {
+    padding: 3rem 0 2rem 2rem;
+  }
+  .image_container {
+    margin: 2rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .regform {
+    flex-direction: column;
+  }
+  .image_container {
+    display: none;
+  }
+  .icon {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 129px;
+    cursor: pointer;
+  }
+  .login {
+    padding-right: 2rem;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    font-family: "Raleway", sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 31px;
+    color: #e8ebae;
+    cursor: pointer;
+  }
+  .mobile_top_div {
+    display: grid;
+    height: 6.2rem;
+    background: #081832;
+  }
+  .h1 {
+    font-weight: normal;
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 550px) {
+}
