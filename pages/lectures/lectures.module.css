@@ -30,30 +30,36 @@
     flex-direction: column;
   }
   .icon {
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    width: 129px;
+    width: 69px;
+    height: 44px;
     cursor: pointer;
   }
   .login {
     padding-right: 2rem;
-    position: absolute;
-    right: 0%;
-    top: 0%;
     font-family: "Raleway", sans-serif !important;
     font-style: normal;
     font-weight: normal;
-    font-size: 26px;
+    font-size: 18px;
     line-height: 31px;
     color: #e8ebae;
     cursor: pointer;
   }
+  .icon_login_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 1rem;
+  }
   .mobile_top_div {
+    display: flex;
     display: grid;
-    height: 6.2rem;
+    height: 8.2rem;
     background: #081832;
-    margin-bottom: 2rem;
+    flex-direction: column;
+  }
+  .open {
+    padding-left: 2rem;
+    margin-bottom: 1rem;
   }
 }
 

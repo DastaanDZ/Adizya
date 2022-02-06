@@ -19,16 +19,21 @@ const Index = () => {
     <>
         <div className={styles.container}>
             <div className={styles.mobile_top_div}>
+            <div className={styles.icon_login_container}> 
             <Link href='/'> 
       <img src={icon.src} alt="xxx" className={styles.icon} />
     </Link>
     <p className={styles.login}>Login</p> 
             </div>
-            <Sidebar sidebar={sidebar}/>
-            <div className={styles.page}> 
-                <div className={styles.open}> 
+    <div className={styles.open}> 
                     <Larr onClick={showSidebar}/>
                 </div>
+            </div>
+            <Sidebar sidebar={sidebar}/>
+            <div className={styles.page}> 
+                {/* <div className={styles.open}> 
+                    <Larr onClick={showSidebar}/>
+                </div> */}
                 <Lec1/>
                 {/* <Form/> */}
             </div>     
