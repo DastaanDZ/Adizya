@@ -61,7 +61,6 @@ const Index = () => {
               onChange={(e) => {
                 setName(e.target.value);
               }}
-              value={name}
               required
             />
           </fieldset>

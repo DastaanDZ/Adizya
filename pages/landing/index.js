@@ -6,7 +6,7 @@ import { signInWithGoogle } from "@/lib/login";
 import logout from "@/lib/logout";
 import { useUserContext } from "@/context/userContext";
 import { useRouter } from "next/router";
-const index = () => {
+const Index = () => {
   const { auth, setName, setIsNewReg } = useUserContext();
   const router = useRouter();
   return (
@@ -56,4 +56,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

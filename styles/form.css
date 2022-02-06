@@ -16,11 +16,14 @@ input[type="text"] {
   background: #081832;
   border-bottom: 1px solid rgba(232, 235, 174, 0.43);
   width: 90%;
+  color: white;
+  text-transform: uppercase;
 }
 input[type="text"]:focus {
   outline: none;
   color: white;
   font-family: "Raleway", sans-serif !important;
+  background: #081832;
 }
 button {
   border: none;

@@ -78,7 +78,6 @@ const ProfileReg = () => {
               onChange={(e) => {
                 setName(e.target.value);
               }}
-              value={name}
               required
             />
           </fieldset>
@@ -141,7 +140,7 @@ const ProfileReg = () => {
             <div className={styles.gen_btn_container}>
               <label>Gender</label>
               <button
-                style={{ color: gender === "MALE" ? "red" : "" }}
+                style={{ color: gender === "MALE" ? "#081832" : "", background: gender === "MALE" ? "#e8ebae" : "" }}
                 className={styles.gen_button}
                 onClick={(e) => {
                   e.preventDefault();
@@ -151,7 +150,7 @@ const ProfileReg = () => {
                 MALE
               </button>
               <button
-                style={{ color: gender === "FEMALE" ? "red" : "" }}
+                style={{ color: gender === "FEMALE" ? "#081832" : "", background: gender === "FEMALE" ? "#e8ebae" : "" }}
                 className={styles.gen_button}
                 onClick={(e) => {
                   e.preventDefault();
@@ -161,7 +160,7 @@ const ProfileReg = () => {
                 FEMALE
               </button>
               <button
-                style={{ color: gender === "OTHER" ? "red" : "" }}
+                style={{ color: gender === "OTHER" ? "#081832" : "", background: gender === "OTHER" ? "#e8ebae" : "" }}
                 className={styles.gen_button}
                 onClick={(e) => {
                   e.preventDefault();
