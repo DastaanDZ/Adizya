@@ -1,11 +1,14 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { useUserContext } from "@/context/userContext";
-import styles from "../regform/regform.module.css";
 import updateMe from "@/lib/updateMe";
 import { useRouter } from "next/router";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
+import Lec1 from "../../assets/images/lec2.jpg"
+
+import styles from "../regform/regform.module.css";
 
 const Index = () => {
   const { auth, name, setName, id } = useUserContext();
@@ -42,7 +45,10 @@ const Index = () => {
   return (
     <>
       <div className={styles.form_title}>
+      <div className={styles.user}> 
+        <img src={Lec1.src} alt="" className={styles.user_image}/>
         <h2 className={styles.h2}>Fill Details</h2>
+      </div>
         <hr className={styles.hr} />
       </div>
       <form
@@ -93,7 +99,7 @@ const Index = () => {
 
           <fieldset className={styles.fieldset}>
             <div className={styles.gen_btn_container}>
-              <label>Gender</label>
+              <label className={styles.gender}>Gender</label>
               <button
                 className={styles.gen_button}
                 onClick={(e) => {

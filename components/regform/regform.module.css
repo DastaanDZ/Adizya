@@ -1,18 +1,28 @@
+.user {
+  display: flex;
+  align-items: center;
+}
+.user_image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
 .h2 {
-  margin-bottom: 12.75px;
   color: #e8ebae;
   font-family: "Raleway", sans-serif !important;
   font-style: normal;
   font-weight: 100;
   font-size: 36px;
-  margin-top: 0px;
+  margin: 0 1rem;
 }
 .hr {
-  margin: 0;
+  margin-left: 58px;
+  margin-top: 11px;
   width: 11%;
   color: #e8ebae;
 }
 .button {
+  font-family: "Raleway", sans-serif !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,6 +41,7 @@
 }
 .form_title {
   margin-bottom: 2rem;
+  padding-left: 1rem;
 }
 .register_form {
   display: flex;
@@ -39,7 +50,6 @@
 }
 .gen_btn_container {
   display: flex;
-  justify-content: space-between;
   /* width: 23rem; */
   align-items: center;
 }
@@ -53,6 +63,10 @@
   font-weight: normal;
   font-size: 12.585px;
   line-height: 12px;
+  margin: 0 0.5rem;
+}
+.gender {
+  margin-right: 1.5rem;
 }
 .btn_container {
   display: flex;
@@ -111,5 +125,8 @@
   .gen_button {
     font-size: 12.585px;
     width: 4rem;
+  }
+  .button {
+    font-size: 16.3685px;
   }
 }

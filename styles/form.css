@@ -58,7 +58,17 @@ button:focus {
 }
 
 @media (max-width: 768px) {
+  input[type="text"] {
+    width: 100%;
+  }
 }
 
 @media (max-width: 550px) {
+  label {
+    font-size: 15.5866px;
+  }
+  input[type="text"] {
+    width: 100%;
+    font-size: 15.5866px;
+  }
 }
