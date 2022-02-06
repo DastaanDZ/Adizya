@@ -21,9 +21,7 @@ const index = () => {
     {SponsorsData.map((items, index) =>{
         console.log(items.pic.src);
                 return(
-                   <div className={styles.sponsor_image_container}> 
                     <img key={index} src={items.pic.src} alt="xxx" className={styles.image}/>
-                   </div>
                 )
             })}
     </div>

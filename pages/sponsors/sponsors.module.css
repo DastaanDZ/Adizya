@@ -39,3 +39,8 @@
   width: 129px;
   cursor: pointer;
 }
+@media (max-width: 760px) {
+  .image {
+    margin-right: 0px;
+  }
+}
