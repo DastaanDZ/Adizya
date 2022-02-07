@@ -5,29 +5,41 @@ import { useRouter } from "next/router";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-import Lec1 from "../../assets/images/lec2.jpg"
+import Lec1 from "../../assets/images/lec2.jpg";
 
-import styles from "../regform/regform.module.css";
+import styles from "./regform.module.css";
 
 const Index = () => {
-  const { auth, name, setName, id } = useUserContext();
+  const { auth, name, setName, id, setId } = useUserContext();
   const [gender, setGender] = useState();
   const router = useRouter();
+  const [profileImageUrl, setProfileImageUrl] = useState();
+  const [inst, setInst] = useState();
+  const [state, setState] = useState();
+  const [phoneNo, setPhoneNo] = useState();
+  const [yos, setYos] = useState();
+  const [caid, setCaid] = useState();
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    if (auth.user) {
+      setProfileImageUrl(auth.user.profileImageUrl);
+      setName(auth.user.name);
+      setId(localStorage.getItem("customId"));
+    }
+  }, [auth.user]);
 
-  function handleSubmit(e) {
-    e.preventDefault();
+  function handleSubmit() {
     const data = {
       name: name,
-      inst: e.target.INST.value,
-      State: e.target.state.value,
-      phoneno: e.target.phoneno.value,
-      yos: e.target.yos.value,
+      inst: inst,
+      State: state,
+      phoneno: phoneNo,
+      yos: yos,
       gender: gender,
+      caid: caid,
     };
     updateMe(auth.user.uid, data);
-    toast.success("Profile Updated", {
+    toast.success("Registration Sucessfull", {
       position: "top-right",
       autoClose: 1500,
       hideProgressBar: false,
@@ -44,15 +56,20 @@ const Index = () => {
   return (
     <>
       <div className={styles.form_title}>
-      <div className={styles.user}> 
-        <img src={Lec1.src} alt="" className={styles.user_image}/>
-        <h2 className={styles.h2}>Fill Details</h2>
-      </div>
+        <div className={styles.user}>
+          <img
+            src={profileImageUrl ? `${profileImageUrl}` : Lec1.src}
+            alt=""
+            className={styles.user_image}
+          />
+          <h2 className={styles.h2}>Fill Details</h2>
+        </div>
       </div>
       <form
         className={styles.register_form}
         onSubmit={(e) => {
-          handleSubmit(e);
+          e.preventDefault();
+          handleSubmit();
         }}
       >
         <div className={styles.part1}>
@@ -71,17 +88,41 @@ const Index = () => {
 
           <fieldset className={styles.fieldset}>
             <label>School/College</label>
-            <input type="text" name="INST" />
+            <input
+              type="text"
+              name="INST"
+              value={inst}
+              onChange={(e) => {
+                setInst(e.target.value);
+              }}
+              required
+            />
           </fieldset>
 
           <fieldset className={styles.fieldset}>
             <label>State</label>
-            <input type="text" name="state" />
+            <input
+              type="text"
+              name="state"
+              value={state}
+              onChange={(e) => {
+                setState(e.target.value);
+              }}
+              required
+            />
           </fieldset>
 
           <fieldset className={styles.fieldset}>
             <label>Phone Number</label>
-            <input type="text" name="phoneno" />
+            <input
+              type="text"
+              name="phoneno"
+              value={phoneNo}
+              onChange={(e) => {
+                setPhoneNo(e.target.value);
+              }}
+              required
+            />
           </fieldset>
         </div>
         <div className={styles.part2}>
@@ -92,14 +133,28 @@ const Index = () => {
 
           <fieldset className={styles.fieldset}>
             <label>Year Of Study</label>
-            <input type="text" name="yos" />
+            <input
+              type="text"
+              name="yos"
+              value={yos}
+              onChange={(e) => {
+                setYos(e.target.value);
+              }}
+              required
+            />
           </fieldset>
 
           <fieldset className={styles.fieldset}>
             <label>CA Referral ID</label>
-            <input type="text" name="caid" />
+            <input
+              type="text"
+              name="caid"
+              value={caid}
+              onChange={(e) => {
+                setCaid(e.target.value);
+              }}
+            />
           </fieldset>
-
           <fieldset className={styles.fieldset}>
             <div className={styles.gen_btn_container}>
               <label className={styles.gender}>Gender</label>
@@ -133,12 +188,13 @@ const Index = () => {
             </div>
           </fieldset>
         </div>
+        <div className={styles.btn_container}>
+          <button type="submit" className={styles.button}>
+            REGISTER
+          </button>
+        </div>
       </form>
-      <div className={styles.btn_container}>
-            <button type="submit" className={styles.button}>
-              REGISTER
-            </button>
-          </div>
+
       <ToastContainer
         position="top-right"
         autoClose={2000}
