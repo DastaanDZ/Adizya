@@ -1,17 +1,22 @@
 import Link from "next/link";
-import Hero from "../../assets/Hero";
-import icon from "../../assets/images/icon.png";
-import styles from "../landing/landing.module.css";
 import { signInWithGoogle } from "@/lib/login";
 import logout from "@/lib/logout";
 import { useUserContext } from "@/context/userContext";
 import { useRouter } from "next/router";
+
+import Hero from "../../assets/Hero";
+import icon from "../../assets/images/icon.png";
+import Bg from '../../components/bgvid'
+
+import styles from "../landing/landing.module.css";
+
 const Index = () => {
   const { auth, setName, setIsNewReg } = useUserContext();
   const router = useRouter();
   return (
     <>
       <div className={styles.container}>
+      <Bg/>
       <div className={styles.nav}> 
         <Link href="/">
           <img src={icon.src} alt="xxx" className={styles.icon} />
