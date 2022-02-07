@@ -3,8 +3,8 @@
   display: flex;
 }
 .user_image {
-  width: 40px;
-  height: 40px;
+  width: 0px;
+  height: 0px;
   border-radius: 50%;
 }
 .container {
@@ -67,11 +67,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.user_image {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
 }
 .user_image_mob {
   width: 0px;
@@ -177,6 +172,11 @@
     align-items: center;
   }
   .user_image_mob {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .user_image {
     width: 40px;
     height: 40px;
     border-radius: 50%;

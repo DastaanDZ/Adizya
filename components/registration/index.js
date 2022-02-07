@@ -188,12 +188,12 @@ const Index = () => {
             </div>
           </fieldset>
         </div>
+      </form>
         <div className={styles.btn_container}>
           <button type="submit" className={styles.button}>
             REGISTER
           </button>
         </div>
-      </form>
 
       <ToastContainer
         position="top-right"
