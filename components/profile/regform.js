@@ -7,7 +7,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import getMe from "@/lib/getMe";
 
-import Lec1 from "../../assets/images/lec2.jpg"
+import Lec1 from "../../assets/images/lec2.jpg";
 
 import styles from "./regform.module.css";
 
@@ -18,11 +18,14 @@ const ProfileReg = () => {
   const [phoneNo, setPhoneNo] = useState();
   const [yos, setYos] = useState();
   const [gender, setGender] = useState();
+  const [caid, setCaid] = useState();
+  const [profileImageUrl, setProfileImageUrl] = useState();
   const router = useRouter();
 
   useEffect(() => {
     if (localStorage.getItem("uid")) {
       getMe(localStorage.getItem("uid")).then((res) => {
+        console.lo;
         setName(res.name);
         setInst(res.inst);
         setState(res.State);
@@ -30,19 +33,24 @@ const ProfileReg = () => {
         setYos(res.yos);
         setGender(res.gender);
         setId(res.customId);
+        setCaid(res?.caid);
       });
     } else router.push("/");
   }, []);
 
-  function handleSubmit(e) {
-    e.preventDefault();
+  useEffect(() => {
+    if (auth.user) setProfileImageUrl(auth.user.profileImageUrl);
+  }, [auth.user]);
+
+  function handleSubmit() {
     const data = {
       name: name,
-      inst: e.target.INST.value,
-      State: e.target.state.value,
-      phoneno: e.target.phoneno.value,
-      yos: e.target.yos.value,
+      inst: inst,
+      State: state,
+      phoneno: phoneNo,
+      yos: yos,
       gender: gender,
+      caid: caid,
     };
     updateMe(auth.user.uid, data);
     toast.success("Profile Updated", {
@@ -62,15 +70,20 @@ const ProfileReg = () => {
   return (
     <>
       <div className={styles.form_title}>
-      <div className={styles.user}> 
-        <img src={Lec1.src} alt="" className={styles.user_image}/>
-        <h2 className={styles.h2}>Fill Details</h2>
-      </div>
+        <div className={styles.user}>
+          <img
+            src={profileImageUrl ? `${profileImageUrl}` : Lec1.src}
+            alt=""
+            className={styles.user_image}
+          />
+          <h2 className={styles.h2}>Fill Details</h2>
+        </div>
       </div>
       <form
         className={styles.register_form}
         onSubmit={(e) => {
-          handleSubmit(e);
+          e.preventDefault();
+          handleSubmit();
         }}
       >
         <div className={styles.part1}>
@@ -96,6 +109,7 @@ const ProfileReg = () => {
               onChange={(e) => {
                 setInst(e.target.value);
               }}
+              required
             />
           </fieldset>
 
@@ -108,6 +122,7 @@ const ProfileReg = () => {
               onChange={(e) => {
                 setState(e.target.value);
               }}
+              required
             />
           </fieldset>
 
@@ -120,6 +135,7 @@ const ProfileReg = () => {
               onChange={(e) => {
                 setPhoneNo(e.target.value);
               }}
+              required
             />
           </fieldset>
         </div>
@@ -138,19 +154,30 @@ const ProfileReg = () => {
               onChange={(e) => {
                 setYos(e.target.value);
               }}
+              required
             />
           </fieldset>
 
           <fieldset className={styles.fieldset}>
             <label>CA Referral ID</label>
-            <input type="text" name="caid" />
+            <input
+              type="text"
+              name="caid"
+              value={caid}
+              onChange={(e) => {
+                setCaid(e.target.value);
+              }}
+            />
           </fieldset>
 
           <fieldset className={styles.fieldset}>
             <div className={styles.gen_btn_container}>
               <label className={styles.gender}>Gender</label>
               <button
-                style={{ color: gender === "MALE" ? "#081832" : "", background: gender === "MALE" ? "#e8ebae" : "" }}
+                style={{
+                  color: gender === "MALE" ? "#081832" : "",
+                  background: gender === "MALE" ? "#e8ebae" : "",
+                }}
                 className={styles.gen_button}
                 onClick={(e) => {
                   e.preventDefault();
@@ -160,7 +187,10 @@ const ProfileReg = () => {
                 MALE
               </button>
               <button
-                style={{ color: gender === "FEMALE" ? "#081832" : "", background: gender === "FEMALE" ? "#e8ebae" : "" }}
+                style={{
+                  color: gender === "FEMALE" ? "#081832" : "",
+                  background: gender === "FEMALE" ? "#e8ebae" : "",
+                }}
                 className={styles.gen_button}
                 onClick={(e) => {
                   e.preventDefault();
@@ -170,7 +200,10 @@ const ProfileReg = () => {
                 FEMALE
               </button>
               <button
-                style={{ color: gender === "OTHER" ? "#081832" : "", background: gender === "OTHER" ? "#e8ebae" : "" }}
+                style={{
+                  color: gender === "OTHER" ? "#081832" : "",
+                  background: gender === "OTHER" ? "#e8ebae" : "",
+                }}
                 className={styles.gen_button}
                 onClick={(e) => {
                   e.preventDefault();
@@ -182,12 +215,13 @@ const ProfileReg = () => {
             </div>
           </fieldset>
         </div>
+        <div className={styles.btn_container}>
+          <button type="submit" className={styles.button}>
+            UPDATE
+          </button>
+        </div>
       </form>
-      <div className={styles.btn_container}>
-            <button type="submit" className={styles.button}>
-              REGISTER
-            </button>
-          </div>
+
       <ToastContainer
         position="top-right"
         autoClose={2000}
