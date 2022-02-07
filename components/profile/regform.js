@@ -1,12 +1,15 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { useUserContext } from "@/context/userContext";
-import styles from "./regform.module.css";
 import updateMe from "@/lib/updateMe";
 import { useRouter } from "next/router";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import getMe from "@/lib/getMe";
+
+import Lec1 from "../../assets/images/lec2.jpg"
+
+import styles from "./regform.module.css";
 
 const ProfileReg = () => {
   const { auth, name, setName, id, setId } = useUserContext();
@@ -59,8 +62,10 @@ const ProfileReg = () => {
   return (
     <>
       <div className={styles.form_title}>
+      <div className={styles.user}> 
+        <img src={Lec1.src} alt="" className={styles.user_image}/>
         <h2 className={styles.h2}>Fill Details</h2>
-        <hr className={styles.hr} />
+      </div>
       </div>
       <form
         className={styles.register_form}
@@ -137,8 +142,13 @@ const ProfileReg = () => {
           </fieldset>
 
           <fieldset className={styles.fieldset}>
+            <label>CA Referral ID</label>
+            <input type="text" name="caid" />
+          </fieldset>
+
+          <fieldset className={styles.fieldset}>
             <div className={styles.gen_btn_container}>
-              <label>Gender</label>
+              <label className={styles.gender}>Gender</label>
               <button
                 style={{ color: gender === "MALE" ? "#081832" : "", background: gender === "MALE" ? "#e8ebae" : "" }}
                 className={styles.gen_button}
@@ -171,14 +181,13 @@ const ProfileReg = () => {
               </button>
             </div>
           </fieldset>
-
-          <div className={styles.btn_container}>
+        </div>
+      </form>
+      <div className={styles.btn_container}>
             <button type="submit" className={styles.button}>
               REGISTER
             </button>
           </div>
-        </div>
-      </form>
       <ToastContainer
         position="top-right"
         autoClose={2000}

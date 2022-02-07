@@ -2,9 +2,10 @@
   background: #081832;
   display: flex;
 }
-.image {
-  width: 33rem;
-  height: 23.7rem;
+.user_image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 .container {
   display: flex;
@@ -36,7 +37,6 @@
   display: none;
 }
 .icon {
-  width: 100px;
   height: 67px;
   cursor: pointer;
 }
@@ -62,6 +62,16 @@
 }
 .home_login_container {
   display: flex;
+}
+.larr_h1_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user_image_mob {
+  width: 0px;
+  height: 0px;
+  margin: 0px;
 }
 @media (max-width: 1400px) {
   .img_form_container {
@@ -113,11 +123,16 @@
   .nav {
     margin-bottom: 2rem;
   }
+  .image {
+    width: 0px;
+    height: 0px;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 @media (max-width: 768px) {
   .icon {
-    width: 64px;
     height: 42px;
   }
   .container {
@@ -145,6 +160,22 @@
   .nav {
     margin-bottom: 2rem;
   }
+  .open {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 1rem;
+  }
+  .larr_h1_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .user_image_mob {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
 }
 
 @media (max-width: 550px) {
@@ -152,7 +183,6 @@
     font-size: 24px;
   }
   .icon {
-    width: 64px;
     height: 42px;
   }
   .login {

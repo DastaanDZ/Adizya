@@ -7,10 +7,7 @@
   padding: 1rem;
 }
 .icon {
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  width: 129px;
+  height: 67px;
   cursor: pointer;
 }
 .login {
@@ -39,9 +36,14 @@
   font-size: 15px;
 }
 .login_profile_container {
-  position: absolute;
-  top: 0;
-  right: 2rem;
   display: flex;
   flex-direction: row-reverse;
+}
+.nav {
+  display: flex;
+  position: absolute;
+  top: 0;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem 2rem;
 }

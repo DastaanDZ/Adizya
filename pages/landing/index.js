@@ -12,6 +12,7 @@ const Index = () => {
   return (
     <>
       <div className={styles.container}>
+      <div className={styles.nav}> 
         <Link href="/">
           <img src={icon.src} alt="xxx" className={styles.icon} />
         </Link>
@@ -48,6 +49,7 @@ const Index = () => {
             <></>
           )}
         </div>
+      </div>
         <div className={styles.hero_container}>
           <Hero />
         </div>

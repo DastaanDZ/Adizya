@@ -5,6 +5,8 @@ import RegForm from "../../components/regform";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Larr from "../../assets/Larr";
 import icon from "../../assets/images/icon.png";
+import Reg from "../../assets/images/reg.png"
+import Lec1 from "../../assets/images/lec2.jpg"
 
 import styles from "../registration/registration.module.css";
 
@@ -36,12 +38,15 @@ const Index = () => {
           </div>
         </div>
           <div className={styles.open}>
+          <div className={styles.larr_h1_container}> 
             <Larr onClick={showSidebar} />
             <h1 className={styles.h1}>Registration</h1>
           </div>
+            <img src={Lec1.src} alt="" className={styles.user_image_mob}/>
+          </div>
           <div className={styles.img_form_container}>
             <div className={styles.image_container}>
-              <img src="/lec1.jpg" alt="xxx" className={styles.image} />
+              <img src={Reg.src} alt="xxx" className={styles.image} />
             </div>
             <div className={styles.regform_container}>
               <RegForm />

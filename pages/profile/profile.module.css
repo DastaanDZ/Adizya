@@ -2,15 +2,16 @@
   background: #081832;
   display: flex;
 }
-.image {
-  width: 33rem;
-  height: 23.7rem;
+.user_image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 .container {
   display: flex;
   height: 100vh;
   flex-direction: column;
-  padding: 1rem 0 2rem 2rem;
+  padding: 0rem 0 2rem 2rem;
   width: 100%;
   justify-content: space-around;
 }
@@ -23,7 +24,7 @@
 }
 .img_form_container {
   display: flex;
-  padding-bottom: 8rem;
+  padding-bottom: 5rem;
 }
 .open {
   display: flex;
@@ -34,6 +35,48 @@
 }
 .mobile_top_div {
   display: none;
+}
+.icon {
+  height: 67px;
+  cursor: pointer;
+}
+.login {
+  font-family: "Raleway", sans-serif !important;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 31px;
+  color: #e8ebae;
+  cursor: pointer;
+  border: 0.1px solid #e8ebae;
+  border-radius: 23px;
+  padding: 1.5px 12.5px;
+  font-size: 15px;
+  margin: 0px;
+  margin-right: 2rem;
+}
+.nav {
+  display: flex;
+  background: #081832;
+  justify-content: space-between;
+  align-items: center;
+}
+.home_login_container {
+  display: flex;
+}
+.larr_h1_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user_image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.user_image_mob {
+  width: 0px;
+  height: 0px;
+  margin: 0px;
 }
 @media (max-width: 1400px) {
   .img_form_container {
@@ -53,9 +96,15 @@
   .container {
     height: auto;
   }
+  .nav {
+    margin-bottom: 2rem;
+  }
 }
 
 @media (max-width: 1220px) {
+  .nav {
+    margin-bottom: 2rem;
+  }
 }
 @media (max-width: 1024px) {
   .img_form_container {
@@ -71,51 +120,85 @@
     width: 100%;
   }
   .container {
-    padding: 3rem 0 2rem 2rem;
+    padding: 1rem 0 2rem 2rem;
   }
   .image_container {
     margin: 2rem 0;
   }
+  .nav {
+    margin-bottom: 2rem;
+  }
+  .image {
+    width: 0px;
+    height: 0px;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 @media (max-width: 768px) {
+  .icon {
+    height: 42px;
+  }
+  .container {
+    padding: 1rem 0 2rem 1rem;
+  }
+  .regform_container {
+    width: 100%;
+    margin-left: 0px;
+  }
   .regform {
     flex-direction: column;
   }
   .image_container {
     display: none;
   }
-  .icon {
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    width: 129px;
-    cursor: pointer;
-  }
-  .login {
-    padding-right: 2rem;
-    position: absolute;
-    right: 0%;
-    top: 0%;
-    font-family: "Raleway", sans-serif !important;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 31px;
-    color: #e8ebae;
-    cursor: pointer;
-  }
-  .mobile_top_div {
-    display: grid;
-    height: 6.2rem;
-    background: #081832;
-    margin-bottom: 2rem;
-  }
   .h1 {
     font-weight: normal;
     font-size: 44px;
   }
+  .login {
+    margin-right: 1rem;
+    padding: 0px 12.5px;
+    font-size: 13px;
+  }
+  .nav {
+    margin-bottom: 2rem;
+  }
+  .open {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 1rem;
+  }
+  .larr_h1_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .user_image_mob {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
 }
 
 @media (max-width: 550px) {
+  .h1 {
+    font-size: 24px;
+  }
+  .icon {
+    height: 42px;
+  }
+  .login {
+    margin-right: 1rem;
+    padding: 0px 12.5px;
+    font-size: 13px;
+  }
+  .img_form_container {
+    padding-bottom: 0px;
+  }
+  .nav {
+    margin-bottom: 2rem;
+  }
 }

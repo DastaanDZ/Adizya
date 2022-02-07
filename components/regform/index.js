@@ -1,4 +1,3 @@
-import React from "react";
 import { useState, useEffect } from "react";
 import { useUserContext } from "@/context/userContext";
 import updateMe from "@/lib/updateMe";
@@ -49,7 +48,6 @@ const Index = () => {
         <img src={Lec1.src} alt="" className={styles.user_image}/>
         <h2 className={styles.h2}>Fill Details</h2>
       </div>
-        <hr className={styles.hr} />
       </div>
       <form
         className={styles.register_form}
@@ -98,6 +96,11 @@ const Index = () => {
           </fieldset>
 
           <fieldset className={styles.fieldset}>
+            <label>CA Referral ID</label>
+            <input type="text" name="caid" />
+          </fieldset>
+
+          <fieldset className={styles.fieldset}>
             <div className={styles.gen_btn_container}>
               <label className={styles.gender}>Gender</label>
               <button
@@ -129,14 +132,13 @@ const Index = () => {
               </button>
             </div>
           </fieldset>
-
-          <div className={styles.btn_container}>
+        </div>
+      </form>
+      <div className={styles.btn_container}>
             <button type="submit" className={styles.button}>
               REGISTER
             </button>
           </div>
-        </div>
-      </form>
       <ToastContainer
         position="top-right"
         autoClose={2000}

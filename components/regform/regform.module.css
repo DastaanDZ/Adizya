@@ -119,6 +119,10 @@
     font-size: 14.585px;
     width: 6rem;
   }
+  .user_image {
+    width: 0px;
+    height: 0px;
+  }
 }
 
 @media (max-width: 550px) {
