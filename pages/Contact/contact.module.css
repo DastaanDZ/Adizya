@@ -3,21 +3,28 @@
   align-items: center;
   justify-content: center;
   background: #081832;
-  height: 100vh;
-  padding: 9rem;
+  height: auto;
+  border: 1px solid #e8ebae;
+  margin: 5rem 9rem 4rem 9rem;
 }
-.image {
+.map {
   flex: 1;
+  height: 100%;
+  border-right: 1px solid aliceblue;
 }
 .content {
   flex: 1;
   height: 100%;
+  padding-left: 2rem;
+}
+.address {
+  margin-bottom: 113px;
 }
 .hr {
   width: 40%;
 }
 .title {
-  margin-bottom: 4.33rem;
+  margin-bottom: 1.33rem;
 }
 .info {
   display: flex;

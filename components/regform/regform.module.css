@@ -6,6 +6,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  border: 2px solid #e8ebae;
 }
 .h2 {
   color: #e8ebae;
@@ -64,6 +65,14 @@
   font-size: 12.585px;
   line-height: 12px;
   margin: 0 0.5rem;
+}
+.gen_button:hover {
+  background-color: #e8ebae;
+  color: #081832;
+}
+.gen_button_clicked {
+  background-color: #e8ebae;
+  color: #081832;
 }
 .gender {
   margin-right: 1.5rem;
