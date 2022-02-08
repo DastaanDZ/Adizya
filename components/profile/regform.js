@@ -138,11 +138,7 @@ const ProfileReg = () => {
               required
             />
           </fieldset>
-          <div className={styles.btn_container}>
-          <button type="submit" className={styles.button}>
-            UPDATE
-          </button>
-        </div>
+     
         </div>
         <div className={styles.part2}>
           <fieldset className={styles.fieldset}>
@@ -219,6 +215,11 @@ const ProfileReg = () => {
               </button>
             </div>
           </fieldset>
+          <div className={styles.btn_container}>
+          <button type="submit" className={styles.button}>
+            UPDATE
+          </button>
+        </div>
         </div>
       </form>
 

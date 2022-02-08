@@ -124,11 +124,6 @@ const Index = () => {
               required
             />
           </fieldset>
-          <div className={styles.btn_container}>
-          <button type="submit" className={styles.button}>
-            REGISTER
-          </button>
-        </div>
         </div>
         <div className={styles.part2}>
           <fieldset className={styles.fieldset}>
@@ -192,7 +187,13 @@ const Index = () => {
               </button>
             </div>
           </fieldset>
+          <div className={styles.btn_container}>
+          <button type="submit" className={styles.button}>
+            REGISTER
+          </button>
         </div>
+        </div>
+       
       </form>
 
       <ToastContainer
