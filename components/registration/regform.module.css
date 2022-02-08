@@ -48,7 +48,22 @@
   display: flex;
   justify-content: space-between;
   height: 76%;
+  animation: 1s fadeIn;
+  animation-fill-mode: forwards;
+
+  visibility: hidden;
 }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
 .gen_btn_container {
   display: flex;
   /* width: 23rem; */
