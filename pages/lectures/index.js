@@ -4,7 +4,6 @@ import Link from "next/link"
 import Sidebar from "../../components/sidebar/Sidebar"
 import Larr from "../../assets/Larr"
 import Lec1 from "./Lec1"
-import Form from '../../components/registerform'
 import icon from '../../assets/images/icon.png'
 
 import styles from '../lectures/lectures.module.css'

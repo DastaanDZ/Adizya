@@ -1,16 +1,14 @@
 import Adizya from "./../../assets/Adizya";
 import Linkden from "./../../assets/Linkden";
 import Insta from "./../../assets/Insta";
-import Map from '../../components/maps'
 
 import styles from '../../pages/Contact/contact.module.css';
 
-const contact = () => {
+const Index = () => {
   return (
     <>
       <div className={styles.contact_main}>
         <div className={styles.map}>
-        <Map/>
         </div>
         <div className={styles.content}>
         <div className={styles.title}> 
@@ -35,7 +33,7 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Index;
 
 
 
