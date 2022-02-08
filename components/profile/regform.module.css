@@ -80,6 +80,7 @@
 }
 .part1 {
   width: 40%;
+  height: 130%;
 }
 .part2 {
   width: 60%;
@@ -123,7 +124,11 @@
     width: 0px;
     height: 0px;
     margin: 0px;
-    border: 2px solid #e8ebae;
+    border: 0px solid #e8ebae;
+  }
+  .btn_container {
+    position: absolute;
+    bottom: -2rem;
   }
 }
 

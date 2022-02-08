@@ -13,6 +13,7 @@ const Index = () => {
 
   return (
     <>
+    <div className={styles.cover}> 
       <video  ref={videoRef}
             width="250"
             loop
@@ -22,6 +23,7 @@ const Index = () => {
             className={styles.video}>         
       <source src="./bg.mp4" type="video/mp4"/>     
 </video>
+    </div>
     </>
   )
 }
