@@ -21,8 +21,8 @@
   border-radius: 23px;
   padding: 1.5px 12.5px;
   font-size: 15px;
-  margin-left: 1rem;
-  margin-top: 0px;
+  margin: 0px;
+  margin-right: 0px;
 }
 .profile {
   font-family: "Raleway", sans-serif !important;
@@ -35,7 +35,8 @@
   border-radius: 23px;
   padding: 1.5px 12.5px;
   font-size: 15px;
-  margin-top: 0px;
+  margin: 0px;
+  margin-right: 2rem;
 }
 .login_profile_container {
   display: flex;
@@ -48,6 +49,7 @@
   justify-content: space-between;
   width: 100%;
   padding: 1rem;
+  align-items: center;
 }
 .hero_container {
   z-index: 1;
