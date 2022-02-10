@@ -7,7 +7,7 @@ const Lec1 = () => {
     <>
        <div>
        <div className={styles.title}> 
-       <h1 className={styles.h1}>Event Name 1</h1>
+       <h1 className={styles.h1}>Revamp</h1>
        <hr className={styles.hr}/>
        </div>
        <div className={styles.info}>
@@ -19,7 +19,46 @@ const Lec1 = () => {
         <img src={lec3.src} alt="xxx" className={styles.pic2} />
        </div>
         </div> 
-        <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam harum numquam dolorum expedita distinctio dolore praesentium blanditiis cupiditate voluptatibus! At dolorum repellendus illum dolorem dolore ipsam mollitia ipsum, explicabo voluptate, ad sunt? Ex, dolorem provident omnis perferendis inventore animi nihil, nostrum at, excepturi ducimus quod aut ab magnam repellendus? Ab, mollitia. Vitae laudantium nulla molestiae voluptate! Magnam exercitationem minima velit animi consequatur, iste fugiat similique ipsam, nesciunt ullam aspernatur provident quas! Quasi sunt consectetur, excepturi fugit maiores adipisci quisquam nemo possimus maxime autem repellendus odit aliquam quo qui, explicabo sed facilis incidunt corporis dicta sint aut dignissimos atque. Quas inventore consectetur facilis magnam, suscipit doloribus sapiente fugiat. Expedita explicabo temporibus perspiciatis molestias laboriosam, dolor tempora impedit sequi corporis incidunt sed doloremque voluptas unde porro architecto. Excepturi saepe doloremque praesentium facilis ad eaque placeat itaque consequatur necessitatibus enim nemo sit modi quae, fuga voluptatibus incidunt corrupti ab repellat omnis porro maxime tenetur tempore. Ut reprehenderit officia blanditiis odio eius amet nesciunt consequatur, enim ipsa veritatis quo ipsam animi porro! Perferendis voluptas incidunt, nam maxime cupiditate alias harum quia odio illo ab vero voluptatum nemo dolor maiores quae! Dolorem doloribus sit, perferendis nobis dicta nisi optio tempora quisquam quam odio tempore aperiam maxime ex fuga quia velit error quo accusantium at veniam consectetur mollitia. Ipsam cum voluptas dolorem, explicabo vel quam debitis earum obcaecati aliquid recusandae esse quos cupiditate exercitationem odit sint, dolore ratione nihil rerum sequi! Aliquam, exercitationem, enim explicabo amet ullam esse assumenda ratione earum culpa aliquid, iusto harum necessitatibus ut cupiditate? Aliquid amet ex fugit repudiandae dolorem saepe minima inventore delectus autem, eum ratione ullam sit dicta, quod harum, reprehenderit nesciunt optio impedit quo explicabo voluptates possimus architecto! Debitis temporibus voluptas tenetur libero nulla, placeat alias. Non, numquam facilis modi ipsa autem aliquid quos reprehenderit quibusdam unde, fugiat cum.</p>
+        <p className={styles.desc}>In the journey to find a future in the digital world without limitations and bounds, we should not leave our past behind. As Marcus Garvey rightly said, people without the knowledge of their past are like trees without roots. Here we are trying to revamp our pasts to merge with the future without forgetting our roots.
+
+                                  Event Description:  
+                                  To redesign a given historic building that is to be placed in the metaverse in a unique manner that exploits your creativity.
+
+    <ul>
+      <li>Participation can be done individually or in a team of 2 members.</li>
+      <li>A historic building will be provided onto which the unique changes can be implemented.</li>
+      <li>It can be done on facade, </li>
+      <li>Submission can be done in either hard or soft copy</li>
+      <li>Time and Date (to be decided)</li>
+      <li>Registration for the competition is to be done adizya.org</li>
+      <li>This is open for all students.</li>
+      <li>Marking is based on creativity, uniqueness, presentation skill, and the essence of Metaverse.</li>
+      <li>The submission is done as JPEG, PNG, PDF format.</li>
+      <li>Submission is done on </li>
+    </ul>
+</p>
+
+<p className={styles.desc_info}>
+Prizes Worth:<br></br>
+1st Place -1k, 2nd Place - 500, 3rd Place - 200
+</p>
+
+<p className={styles.desc_info}>
+Contact<br></br>
+Jithin A.J - +91 97444 89606, <br></br>
+Vaisakh   - +91 89430 76247<br></br>
+</p>
+
+<p className={styles.desc_info}>
+DEADLINE DATE<br></br>
+Registration Start :10-02-2022 (tentatively)<br></br>
+Registration End  : 16-02-2022<br></br>
+Submission Date  : 20-02-2022<br></br>
+Result: 28-02-2022
+</p>
+       </div>
+       <div className={styles.btn_container}> 
+       <a href='#' className={styles.register_btn}>REGISTER</a>
        </div>
        </div> 
     </>

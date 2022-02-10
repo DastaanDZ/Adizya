@@ -1,0 +1,24 @@
+/* color: #081832;
+background-color: #e8ebae; */
+
+/* fill: #081832;
+    fill: #e8ebae; */
+#inactive1,
+#inactive2,
+#inactive3,
+#inactive4,
+#inactive5,
+#inactive6 {
+  fill: #e8ebae;
+  cursor: pointer;
+}
+#inactive_text {
+  fill: #081832;
+}
+.reveal {
+  background: transparent;
+  opacity: 0;
+}
+.reveal:hover {
+  opacity: 1;
+}

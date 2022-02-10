@@ -1,23 +1,31 @@
 
 const SidebarData = [
     {
-        title:'01  Lecture',
+        title:'Revamp',
+        path:'/lectures/Lec1',
+    },
+    {
+        title:'Junk Drawer ',
+        path:'/lectures/Lec2',
+    },
+    {
+        title:'Monometria',
         path:'/',
     },
     {
-        title:'02 Lecture',
+        title:'Faux-paw-gleam',
         path:'/',
     },
     {
-        title:'03 Lecture',
+        title:'Confero Veritas',
         path:'/',
     },
     {
-        title:'04 Lecture',
+        title:'Resonate',
         path:'/',
     },
     {
-        title:'05 Lecture',
+        title:'Coming Soon...',
         path:'/',
     }
 ]

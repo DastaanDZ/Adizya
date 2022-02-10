@@ -15,8 +15,8 @@ const Hero = () => {
 <path d="M181.905 7.67773L84.0146 132.644L188.847 185.06L181.905 7.67773Z" fill="#E8EBAE" fill-opacity="1"/>
 </g>
 <g className={styles.reveal}> 
-<path d="M141.652 231.178L84.7246 136.811L186.58 188.632L141.652 231.178Z" fill="#E8EBAE" fill-opacity="1"/>
 </g>
+<path d="M141.652 231.178L84.7246 136.811L186.58 188.632L141.652 231.178Z" fill="#E8EBAE" fill-opacity="1"/>
 <g className={styles.reveal}> 
 <path d="M190.682 192.152L145.39 234.724L304.324 343.992L190.682 192.152Z" fill="#E8EBAE" fill-opacity="1"/>
 </g>

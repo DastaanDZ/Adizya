@@ -9,6 +9,8 @@ import icon from "../../assets/images/icon.png";
 import Bg from '../../components/bgvid'
 
 import styles from "../landing/landing.module.css";
+import NewHero from "assets/NewHero";
+import FinalHero from "assets/FinalHero";
 
 const Index = () => {
   const { auth, setName, setIsNewReg } = useUserContext();
@@ -56,7 +58,7 @@ const Index = () => {
         </div>
       </div>
         <div className={styles.hero_container}>
-          <Hero />
+          <FinalHero/>
         </div>
       </div>
     </>

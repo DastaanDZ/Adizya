@@ -7,8 +7,11 @@ import Lec1 from "./Lec1"
 import icon from '../../assets/images/icon.png'
 
 import styles from '../lectures/lectures.module.css'
+import { useRouter } from "next/router"
 
 const Index = () => {
+
+    const router = useRouter()
 
     const [sidebar, setSidebar] = useState(true)
 
@@ -17,24 +20,55 @@ const Index = () => {
     return (
     <>
         <div className={styles.container}>
-            <div className={styles.mobile_top_div}>
-            <div className={styles.icon_login_container}> 
-            <Link href='/'> 
-      <img src={icon.src} alt="xxx" className={styles.icon} />
-    </Link>
-    <p className={styles.login}>Login</p> 
+        <div className={styles.mob_nav}>
+        <div className={styles.ihl_container}> 
+            <Link href="/">
+              <img src={icon.src} alt="xxx" className={styles.icon} />
+            </Link>
+            <div className={styles.home_login_container}>
+              <Link href="/">
+                <p className={styles.login}>Home</p>
+              </Link>
+              <p
+                className={styles.login}
+                onClick={() => {
+                  logout();
+                  router.push("/");
+                }}
+              >
+                Logout
+              </p>
             </div>
-    <div className={styles.open}> 
+        </div>
+            <div className={styles.open_mob}> 
                     <Larr onClick={showSidebar}/>
                 </div>
-            </div>
+          </div>
             <Sidebar sidebar={sidebar}/>
-            <div className={styles.page}> 
-                {/* <div className={styles.open}> 
+            <div className={styles.page}>
+            <div className={styles.nav}>
+            <Link href="/">
+              <img src={icon.src} alt="xxx" className={styles.icon} />
+            </Link>
+            <div className={styles.home_login_container}>
+              <Link href="/">
+                <p className={styles.login}>Home</p>
+              </Link>
+              <p
+                className={styles.login}
+                onClick={() => {
+                  logout();
+                  router.push("/");
+                }}
+              >
+                Logout
+              </p>
+            </div>
+          </div>
+                <div className={styles.open}> 
                     <Larr onClick={showSidebar}/>
-                </div> */}
+                </div>
                 <Lec1/>
-                {/* <Form/> */}
             </div>     
         </div>
 
