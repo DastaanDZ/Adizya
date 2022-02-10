@@ -19,10 +19,10 @@ const Lec2 = () => {
         <img src={lec3.src} alt="xxx" className={styles.pic2} />
        </div>
         </div> 
-        <p className={styles.desc}>An artist's true essence lies in his ability to create something out of nothing. If you are ready to test the limits of your artistic creativity, it is time to clean up your garage, find those unused items that are dusting on the corner, and create something magnificent that stretches your imagination to the limit by integrating your ideas into the digital world.
+        <p className={styles.desc}>An artist&apos;s true essence lies in his ability to create something out of nothing. If you are ready to test the limits of your artistic creativity, it is time to clean up your garage, find those unused items that are dusting on the corner, and create something magnificent that stretches your imagination to the limit by integrating your ideas into the digital world.
 
 Event Description: Design a piece of furniture with the materials p
-Spacial Designing using one main material ( to provide stability to the structures one can add materials like steel,
+Spacial Designing using one main material to provide stability to the structures one can add materials like steel,
  
 Guidelines: 
 

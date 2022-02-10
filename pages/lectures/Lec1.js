@@ -1,6 +1,6 @@
 import styles from '../lectures/lec1.module.css'
 
-import lec3 from '../../assets/images/lec3.jpg'
+import dummy from '../../assets/images/dummy.png'
 
 const Lec1 = () => {
 	return (
@@ -13,10 +13,10 @@ const Lec1 = () => {
 				<div className={styles.info}>
 					<div className={styles.pic_container}>
 						<div className={styles.pic12_container}>
-							<img src={lec3.src} alt='xxx' className={styles.pic1} />
+							<img src={dummy.src} alt='xxx' className={styles.pic1} />
 						</div>
 						<div className={styles.pic12_container}>
-							<img src={lec3.src} alt='xxx' className={styles.pic2} />
+							<img src={dummy.src} alt='xxx' className={styles.pic2} />
 						</div>
 					</div>
 					<p className={styles.desc}>
@@ -46,19 +46,19 @@ const Lec1 = () => {
 
            <h4 className={styles.desc_info}>Prizes Worth 1st Place -1k, 2nd Place - 500, 3rd Place - 200</h4>
 
-					<p className={styles.desc_info}>
-						Contact<br></br>
+					<h4 className={styles.desc_info}>
+          Contact<br></br>
 						Jithin A.J - +91 97444 89606, <br></br>
 						Vaisakh - +91 89430 76247<br></br>
-					</p>
+          </h4>
 
-					<p className={styles.desc_info}>
-						DEADLINE DATE<br></br>
+          <h4 className={styles.desc_info}>
+          DEADLINE DATE<br></br>
 						Registration Start :10-02-2022 (tentatively)<br></br>
 						Registration End : 16-02-2022<br></br>
 						Submission Date : 20-02-2022<br></br>
 						Result: 28-02-2022
-					</p>
+          </h4>
 				</div>
 				<div className={styles.btn_container}>
 					<a href='#' className={styles.register_btn}>

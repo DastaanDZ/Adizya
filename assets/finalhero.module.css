@@ -22,3 +22,18 @@ background-color: #e8ebae; */
 .reveal:hover {
   opacity: 1;
 }
+@media (max-width: 996px) {
+  #hero {
+    width: 600px;
+  }
+}
+@media (max-width: 638px) {
+  #hero {
+    width: 400px;
+  }
+}
+@media (max-width: 412px) {
+  #hero {
+    width: 300px;
+  }
+}

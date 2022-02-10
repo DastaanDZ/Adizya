@@ -1,22 +1,19 @@
 import styles from '../lectures/lec1.module.css'
 
-import lec3 from '../../assets/images/lec3.jpg'
+import e5 from '../../assets/images/event5.png'
 
 const Lec1 = () => {
   return (
     <>
        <div>
        <div className={styles.title}> 
-       <h1 className={styles.h1}>Revamp</h1>
+       <h1 className={styles.h1}>Confero Veritas</h1>
        <hr className={styles.hr}/>
        </div>
        <div className={styles.info}>
        <div className={styles.pic_container}>
        <div className={styles.pic12_container}> 
-        <img src={lec3.src} alt="xxx" className={styles.pic1} />
-       </div>
-       <div className={styles.pic12_container}> 
-        <img src={lec3.src} alt="xxx" className={styles.pic2} />
+        <img src={e5.src} alt="xxx" className={styles.pic1} />
        </div>
         </div> 
         <p className={styles.desc}>Event Description: Participants will be given a series of questions which need to be answered with relevant pictures. The participant with the most number of relevant pictures will be declared the winner.
