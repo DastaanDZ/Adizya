@@ -39,6 +39,19 @@
   text-align: center;
   margin-top: 3rem;
 }
+.desc_info_1 {
+  font-family: "Raleway", sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #e8ebae;
+  animation: 2s fadeIn;
+  animation-fill-mode: forwards;
+
+  visibility: hidden;
+  text-align: center;
+  margin-top: 3rem;
+}
 
 @keyframes fadeIn {
   0% {

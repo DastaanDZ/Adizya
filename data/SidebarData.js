@@ -2,31 +2,38 @@
 const SidebarData = [
     {
         title:'Revamp',
-        path:'/lectures/Lec1',
+        component: 'event1',
+        value: 'revamp'
     },
     {
         title:'Junk Drawer ',
-        path:'/lectures/Lec2',
+        component: 'event2',
+        value: 'junkdrawer'
     },
     {
         title:'Monometria',
-        path:'/',
+        component: 'event3',
+        value: 'monometria'
     },
     {
         title:'Faux-paw-gleam',
-        path:'/',
+        component:'event4',
+        value: 'fauxpawgleam'
     },
     {
         title:'Confero Veritas',
-        path:'/',
+        component: 'event5',
+        value: 'conferoveritas'
     },
     {
         title:'Resonate',
-        path:'/',
+        component: 'event6',
+        value: 'resonate'
     },
     {
         title:'Coming Soon...',
-        path:'/',
+        component: 'event7',
+        value: 'comingsoon'
     }
 ]
 
