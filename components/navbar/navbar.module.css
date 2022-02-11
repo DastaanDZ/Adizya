@@ -1,0 +1,55 @@
+.icon {
+  height: 67px;
+  cursor: pointer;
+}
+.login {
+  font-family: "Raleway", sans-serif !important;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 31px;
+  color: #e8ebae;
+  cursor: pointer;
+  border: 0.1px solid #e8ebae;
+  border-radius: 23px;
+  padding: 1.5px 12.5px;
+  font-size: 15px;
+  margin: 0px;
+  margin-right: 2rem;
+}
+.nav {
+  display: flex;
+  background: #081832;
+  justify-content: space-between;
+  align-items: center;
+}
+.home_login_container {
+  display: flex;
+}
+@media (max-width: 1400px) {
+  .nav {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 1024px) {
+  .nav {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 1024px) {
+  .nav {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 550px) {
+  .icon {
+    height: 42px;
+  }
+  .login {
+    margin-right: 1rem;
+    padding: 0px 12.5px;
+    font-size: 13px;
+  }
+  .nav {
+    margin-bottom: 2rem;
+  }
+}
