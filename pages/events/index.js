@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import logout from "@/lib/logout";
 import Sidebar from "../../components/sidebar/Sidebar";
@@ -11,12 +11,34 @@ import Eve5 from "./Eve5";
 import Eve6 from "./Eve6";
 import Eve7 from "./Eve7";
 import icon from "../../assets/images/icon.png";
-
+import { useUserContext } from "@/context/userContext";
 import styles from "./lectures.module.css";
 import { useRouter } from "next/router";
+import getMe from "@/lib/getMe";
+import { signInWithGoogle } from "@/lib/login";
 
 const Index = () => {
   const router = useRouter();
+
+  const { auth, name, setName, id, setId, setIsNewReg } = useUserContext();
+  const [inst, setInst] = useState();
+  const [state, setState] = useState();
+  const [phoneNo, setPhoneNo] = useState();
+
+  useEffect(() => {
+    if (localStorage.getItem("uid")) {
+      getMe(localStorage.getItem("uid")).then((res) => {
+        setId(localStorage.getItem("customId"));
+        setName(res.name);
+        setInst(res.inst);
+        setState(res.State);
+        setPhoneNo(res.phoneno);
+      });
+    } else {
+      router.push("/");
+      signInWithGoogle(setName, setIsNewReg);
+    }
+  }, []);
 
   const [sidebar, setSidebar] = useState(true);
   const [event, setEvent] = useState("event1");
@@ -29,10 +51,28 @@ const Index = () => {
   function showEvent(event) {
     switch (event) {
       case "event1":
-        return <Eve1 />;
+        return (
+          <Eve1
+            name={name}
+            email={auth.user?.email}
+            inst={inst}
+            state={state}
+            phoneNo={phoneNo}
+            adyziaId={id}
+          />
+        );
         break;
       case "event2":
-        return <Eve2 />;
+        return (
+          <Eve2
+            name={name}
+            email={auth.user?.email}
+            inst={inst}
+            state={state}
+            phoneNo={phoneNo}
+            adyziaId={id}
+          />
+        );
         break;
       case "event3":
         return <Eve3 />;

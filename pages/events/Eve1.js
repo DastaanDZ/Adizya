@@ -2,7 +2,7 @@ import styles from "./lec1.module.css";
 
 import dummy from "../../assets/images/dummy.png";
 
-const Eve1 = () => {
+const Eve1 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
   return (
     <>
       <div>
@@ -71,7 +71,7 @@ const Eve1 = () => {
         </div>
         <div className={styles.btn_container}>
           <a
-            href="https://forms.gle/GuZjv7yAAEW61gLv6"
+            href={`https://docs.google.com/forms/d/e/1FAIpQLSe6ydujI2-10iIrfQHFYBuXYIIa0zo9JSq5qLlZPEFF680ajg/viewform?usp=pp_url&entry.2059373958=${name}&entry.1878980868=${email}&entry.619268215=${inst}&entry.1044151569=${state}&entry.410368050=${phoneNo}&entry.1914638317=${adyziaId}`}
             className={styles.register_btn}
           >
             REGISTER
