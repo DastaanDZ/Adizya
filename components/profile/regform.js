@@ -114,7 +114,7 @@ const ProfileReg = () => {
           </fieldset>
 
           <fieldset className={styles.fieldset}>
-            <label>State</label>
+            <label>State and District</label>
             <input
               type="text"
               name="state"
