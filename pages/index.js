@@ -2,6 +2,8 @@ import Landing from "../pages/landing";
 import { useUserContext } from "@/context/userContext";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+
+
 export default function Home() {
   const { isNewReg, id, setId, setIsNewReg } = useUserContext();
   const router = useRouter();

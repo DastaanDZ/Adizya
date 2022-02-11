@@ -5,7 +5,7 @@
   background: #081832;
   height: auto;
   border: 1px solid #e8ebae;
-  margin: 5rem 9rem 4rem 9rem;
+  margin: 2rem 9rem 4rem 9rem;
 }
 .contact_main {
   padding: 1rem;
@@ -16,12 +16,12 @@
   border-right: 1px solid aliceblue;
 }
 .content {
-  flex: 1;
+  flex: 2;
   height: 100%;
   padding-left: 2rem;
 }
 .address {
-  margin-bottom: 113px;
+  margin-bottom: 14px;
 }
 .hr {
   width: 40%;
@@ -41,4 +41,67 @@
 .h1 {
   font-size: 50px;
   font-weight: 500;
+}
+.tr {
+  padding-top: 16px;
+}
+@media (max-width: 1123px) {
+}
+@media (max-width: 1023px) {
+  .map_contact_container {
+    flex-direction: column;
+    border: none;
+  }
+  .content {
+    padding: 0;
+    width: 113%;
+  }
+}
+@media (max-width: 800px) {
+  .content {
+    padding: 0;
+    width: 143%;
+  }
+}
+@media (max-width: 768px) {
+  .content {
+    padding: 0;
+    width: 150%;
+  }
+}
+@media (max-width: 563px) {
+  .content {
+    padding: 0;
+    width: 216%;
+  }
+  .h1 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 481px) {
+  .content {
+    padding: 0;
+    width: 272%;
+  }
+  .h1 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 423px) {
+  .content {
+    padding: 0;
+    width: 380%;
+  }
+  .h1 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 407px) {
+  .content {
+    padding: 0;
+    width: 411%;
+  }
+  .h1 {
+    font-size: 24px;
+  }
 }

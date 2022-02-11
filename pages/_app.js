@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import "../styles/form.css";
 import "../styles/contact.css";
+import '../styles/maps.css';
 
 import UserContextProvider from "@/context/userContext";
 import Script from 'next/script'

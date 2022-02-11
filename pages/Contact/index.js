@@ -2,6 +2,7 @@ import Adizya from "./../../assets/Adizya";
 import Linkden from "./../../assets/Linkden";
 import Insta from "./../../assets/Insta";
 import Nav from '../../components/navbar'
+import Map from '../../components/maps'
 
 import styles from '../../pages/Contact/contact.module.css';
 
@@ -12,6 +13,7 @@ const Index = () => {
       <Nav/>
       <div className={styles.map_contact_container}> 
         <div className={styles.map}>
+        <Map/>
         </div>
         <div className={styles.content}>
         <div className={styles.title}> 
@@ -24,9 +26,9 @@ const Index = () => {
             <th>Phone</th>
             <th>Connect Us On</th>
           </tr>
-          <tr>
-            <td>Amet est tristique pulvinar senectus pharetra met mi, praesent pharetra enim. In aliquam mollis vitae lorem mattis mi aliquet.</td>
-            <td>90909029 29302932039203</td>
+          <tr className={styles.tr}>
+            <td>adizya@tathva.org</td>
+            <td>9744489606<br></br>83010 55342<br></br> 89430 76247</td>
             <td><Linkden/> <Insta/></td>
           </tr>
         </div>
