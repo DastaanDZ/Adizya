@@ -43,4 +43,7 @@
   .image {
     margin-right: 0px;
   }
+  .container {
+    padding: 1rem;
+  }
 }

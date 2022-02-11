@@ -21,6 +21,7 @@
   background: #081832;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 .home_login_container {
   display: flex;

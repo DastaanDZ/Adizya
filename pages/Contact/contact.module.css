@@ -1,4 +1,4 @@
-.contact_main {
+.map_contact_container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6,6 +6,9 @@
   height: auto;
   border: 1px solid #e8ebae;
   margin: 5rem 9rem 4rem 9rem;
+}
+.contact_main {
+  padding: 1rem;
 }
 .map {
   flex: 1;

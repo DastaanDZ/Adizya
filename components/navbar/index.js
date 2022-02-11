@@ -1,4 +1,8 @@
+import Link from 'next/link';
 
+import icon from '../../assets/images/icon.png'
+
+import styles from '../../components/navbar/navbar.module.css'
 
 const Index = () => {
   return (

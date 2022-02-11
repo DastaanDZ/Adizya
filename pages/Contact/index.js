@@ -1,6 +1,7 @@
 import Adizya from "./../../assets/Adizya";
 import Linkden from "./../../assets/Linkden";
 import Insta from "./../../assets/Insta";
+import Nav from '../../components/navbar'
 
 import styles from '../../pages/Contact/contact.module.css';
 
@@ -8,6 +9,8 @@ const Index = () => {
   return (
     <>
       <div className={styles.contact_main}>
+      <Nav/>
+      <div className={styles.map_contact_container}> 
         <div className={styles.map}>
         </div>
         <div className={styles.content}>
@@ -27,6 +30,7 @@ const Index = () => {
             <td><Linkden/> <Insta/></td>
           </tr>
         </div>
+      </div>
       </div>
        </div>
     </>
