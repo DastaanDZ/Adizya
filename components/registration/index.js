@@ -73,7 +73,7 @@ const Index = () => {
         }}
       >
         <div className={styles.part1}>
-          <fieldset>
+          <fieldset required>
             <label>Name</label>
             <input
               type="text"
@@ -86,7 +86,7 @@ const Index = () => {
             />
           </fieldset>
 
-          <fieldset className={styles.fieldset}>
+          <fieldset className={styles.fieldset} required>
             <label>School/College</label>
             <input
               type="text"
@@ -99,7 +99,7 @@ const Index = () => {
             />
           </fieldset>
 
-          <fieldset className={styles.fieldset}>
+          <fieldset className={styles.fieldset} required>
             <label>State and District</label>
             <input
               type="text"
@@ -112,7 +112,7 @@ const Index = () => {
             />
           </fieldset>
 
-          <fieldset className={styles.fieldset}>
+          <fieldset className={styles.fieldset} required>
             <label>Phone Number</label>
             <input
               type="text"
@@ -126,12 +126,12 @@ const Index = () => {
           </fieldset>
         </div>
         <div className={styles.part2}>
-          <fieldset className={styles.fieldset}>
+          <fieldset className={styles.fieldset} required>
             <label>Adizya ID</label>
             <input type="text" name="id" value={id} disabled />
           </fieldset>
 
-          <fieldset className={styles.fieldset}>
+          <fieldset className={styles.fieldset} required>
             <label>Year Of Study</label>
             <input
               type="text"
@@ -144,7 +144,7 @@ const Index = () => {
             />
           </fieldset>
 
-          <fieldset className={styles.fieldset}>
+          <fieldset className={styles.fieldset} required>
             <label>CA Referral ID</label>
             <input
               type="text"
@@ -155,7 +155,7 @@ const Index = () => {
               }}
             />
           </fieldset>
-          <fieldset className={styles.fieldset}>
+          <fieldset className={styles.fieldset} required>
             <div className={styles.gen_btn_container}>
               <label className={styles.gender}>Gender</label>
               <button
