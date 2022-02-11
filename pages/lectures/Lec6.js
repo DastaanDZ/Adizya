@@ -7,7 +7,7 @@ const Lec1 = () => {
     <>
        <div>
        <div className={styles.title}> 
-       <h1 className={styles.h1}>Revamp</h1>
+       <h1 className={styles.h1}>Resonate</h1>
        <hr className={styles.hr}/>
        </div>
        <div className={styles.info}>

@@ -192,9 +192,19 @@
   }
 }
 @media (max-width: 768px) {
+  .title {
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
   .h1 {
     font-size: 40px;
     font-weight: 100;
+  }
+  .hr {
+    width: 33%;
   }
   .pic_container {
     margin-bottom: 0px;
