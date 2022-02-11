@@ -68,7 +68,7 @@ Time :  8:00AM -  7:00 PM
 </p>
        </div>
        <div className={styles.btn_container}> 
-       <a href='#' className={styles.register_btn}>REGISTER</a>
+       <a href='https://forms.gle/uFYbCzppxRXz5FiC8' className={styles.register_btn}>REGISTER</a>
        </div>
        </div> 
     </>

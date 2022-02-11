@@ -38,7 +38,7 @@ Vaisakh   - +91 89430 76247<br></br>
 </p>
        </div>
        <div className={styles.btn_container}> 
-       <a href='#' className={styles.register_btn}>REGISTER</a>
+       <a href='https://forms.gle/EpstPvUabXcHjaoC9' className={styles.register_btn}>REGISTER</a>
        </div>
        </div> 
     </>

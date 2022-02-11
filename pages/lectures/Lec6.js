@@ -72,7 +72,7 @@ Result: 28-02-2022
 </p>
        </div>
        <div className={styles.btn_container}> 
-       <a href='#' className={styles.register_btn}>REGISTER</a>
+       <a href='https://forms.gle/2eFSKxiCTDQXkruG7' className={styles.register_btn}>REGISTER</a>
        </div>
        </div> 
     </>

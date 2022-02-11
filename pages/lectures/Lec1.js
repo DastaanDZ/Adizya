@@ -61,7 +61,7 @@ const Lec1 = () => {
           </h4>
 				</div>
 				<div className={styles.btn_container}>
-					<a href='#' className={styles.register_btn}>
+					<a href='https://forms.gle/GuZjv7yAAEW61gLv6' className={styles.register_btn}>
 						REGISTER
 					</a>
 				</div>
