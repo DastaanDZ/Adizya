@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Link from "next/link";
-
+import logout from "@/lib/logout";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Larr from "../../assets/Larr";
 import Eve1 from "./Eve1";
