@@ -3,13 +3,13 @@ import Link from "next/link";
 
 import Sidebar from "../../components/sidebar/Sidebar";
 import Larr from "../../assets/Larr";
-import Lec1 from "./Lec1";
-import Lec2 from "./Lec2";
-import Lec3 from "./Lec3";
-import Lec4 from "./Lec4";
-import Lec5 from "./Lec5";
-import Lec6 from "./Lec6";
-import Lec7 from "./Lec7";
+import Eve1 from "./Eve1";
+import Eve2 from "./Eve2";
+import Eve3 from "./Eve3";
+import Eve4 from "./Eve4";
+import Eve5 from "./Eve5";
+import Eve6 from "./Eve6";
+import Eve7 from "./Eve7";
 import icon from "../../assets/images/icon.png";
 
 import styles from "./lectures.module.css";
@@ -29,25 +29,25 @@ const Index = () => {
   function showEvent(event) {
     switch (event) {
       case "event1":
-        return <Lec1 />;
+        return <Eve1 />;
         break;
       case "event2":
-        return <Lec2 />;
+        return <Eve2 />;
         break;
       case "event3":
-        return <Lec3 />;
+        return <Eve3 />;
         break;
       case "event4":
-        return <Lec4 />;
+        return <Eve4 />;
         break;
       case "event5":
-        return <Lec5 />;
+        return <Eve5 />;
         break;
       case "event6":
-        return <Lec6 />;
+        return <Eve6 />;
         break;
       case "event7":
-        return <Lec7 />;
+        return <Eve7 />;
         break;
     }
   }

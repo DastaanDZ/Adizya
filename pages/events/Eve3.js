@@ -2,7 +2,7 @@ import styles from "./lec1.module.css";
 
 import lec3 from "../../assets/images/lec3.jpg";
 
-const Lec1 = () => {
+const Eve3 = () => {
   return (
     <>
       <div>
@@ -70,4 +70,4 @@ const Lec1 = () => {
   );
 };
 
-export default Lec1;
+export default Eve3;
