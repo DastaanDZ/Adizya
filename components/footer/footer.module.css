@@ -1,0 +1,30 @@
+.team_contact {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  padding: 0.5rem 1rem;
+}
+.contact {
+  height: 67px;
+  cursor: pointer;
+}
+.team {
+  font-family: "Raleway", sans-serif !important;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 31px;
+  color: #e8ebae;
+  cursor: pointer;
+  border: 0.1px solid #e8ebae;
+  border-radius: 23px;
+  padding: 1.5px 12.5px;
+  font-size: 13px;
+}
+@media (max-width: 768px) {
+  .contact {
+    height: 42px;
+  }
+}

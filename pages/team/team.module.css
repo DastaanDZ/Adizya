@@ -1,0 +1,83 @@
+.h1 {
+  margin: 0 0 0 2rem;
+}
+.larr_h1_container {
+  display: flex;
+  align-items: center;
+  padding-left: 4.33rem;
+}
+.team_container {
+  padding: 1rem;
+}
+.pic {
+  width: 207px;
+  height: 201px;
+}
+.wrapper,
+.profile_container {
+  display: flex;
+}
+.wrapper {
+  margin-top: 2rem;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.profile_container {
+  width: 80%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: auto;
+  margin: 0 1rem 2rem 1rem;
+}
+.profile {
+  flex-basis: 32%;
+  position: relative;
+  box-shadow: 1px 1px 10px #e8ebae;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+.profile_info_container {
+  position: absolute;
+  bottom: 0%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+}
+.detail1,
+.detail2 {
+  color: #e8ebae;
+  margin: 0px;
+  font-family: "Raleway", sans-serif !important;
+}
+.detail1 {
+  font-size: 1rem;
+  color: white;
+  line-height: 21.13px;
+}
+.detail2 {
+  font-size: 14px;
+}
+.detail_container {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .larr_h1_container {
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width: 550px) {
+  .h1 {
+    font-size: 24px;
+  }
+}

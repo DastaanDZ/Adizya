@@ -7,10 +7,12 @@ import { useRouter } from "next/router";
 import Hero from "../../assets/Hero";
 import icon from "../../assets/images/icon.png";
 import Bg from '../../components/bgvid'
-
-import styles from "../landing/landing.module.css";
 import NewHero from "assets/NewHero";
 import FinalHero from "assets/FinalHero";
+import Footer from '../../components/footer'
+
+import styles from "../landing/landing.module.css";
+
 
 const Index = () => {
   const { auth, setName, setIsNewReg } = useUserContext();
@@ -60,6 +62,7 @@ const Index = () => {
         <div className={styles.hero_container}>
           <FinalHero/>
         </div>
+        <Footer/>
       </div>
     </>
   );
