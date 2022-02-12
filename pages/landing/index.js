@@ -12,6 +12,7 @@ import FinalHero from "assets/FinalHero";
 import Footer from '../../components/footer'
 
 import styles from "../landing/landing.module.css";
+import Head from "next/head";
 
 
 const Index = () => {
@@ -19,6 +20,9 @@ const Index = () => {
   const router = useRouter();
   return (
     <>
+    <Head>
+      <title>Adizya'21</title>
+    </Head>
       <div className={styles.container}>
       <Bg/>
       <div className={styles.nav}> 
