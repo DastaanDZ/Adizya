@@ -21,7 +21,7 @@ const Index = () => {
   return (
     <>
     <Head>
-      <title>Adizya'21</title>
+      <title>Adizya&apos;21</title>
     </Head>
       <div className={styles.container}>
       <Bg/>
