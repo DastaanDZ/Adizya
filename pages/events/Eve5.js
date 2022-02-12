@@ -1,6 +1,6 @@
 import styles from "./lec1.module.css";
 
-import e5 from "../../assets/images/event5.png";
+import eve5 from "../../assets/images/event5.png";
 
 const Eve5 = () => {
   return (
@@ -13,7 +13,7 @@ const Eve5 = () => {
         <div className={styles.info}>
           <div className={styles.pic_container}>
             <div className={styles.pic12_container}>
-              <img src={e5.src} alt="xxx" className={styles.pic1} />
+              <img src={eve5.src} alt="xxx" className={styles.pic1} />
             </div>
           </div>
           <p className={styles.desc}>

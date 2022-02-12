@@ -1,6 +1,7 @@
 .icon {
   height: 67px;
   cursor: pointer;
+  z-index: 9999999;
 }
 .login {
   font-family: "Raleway", sans-serif !important;
@@ -24,6 +25,7 @@
   width: 100%;
 }
 .home_login_container {
+  z-index: 999999;
   display: flex;
 }
 @media (max-width: 1400px) {

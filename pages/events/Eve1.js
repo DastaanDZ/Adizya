@@ -1,6 +1,6 @@
 import styles from "./lec1.module.css";
 
-import dummy from "../../assets/images/dummy.png";
+import eve1 from "../../assets/images/event1.jpg";
 
 const Eve1 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
   return (
@@ -13,10 +13,10 @@ const Eve1 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
         <div className={styles.info}>
           <div className={styles.pic_container}>
             <div className={styles.pic12_container}>
-              <img src={dummy.src} alt="xxx" className={styles.pic1} />
+              <img src={eve1.src} alt="xxx" className={styles.pic1} />
             </div>
             <div className={styles.pic12_container}>
-              <img src={dummy.src} alt="xxx" className={styles.pic2} />
+              <img src={eve1.src} alt="xxx" className={styles.pic2} />
             </div>
           </div>
           <p className={styles.desc}>
