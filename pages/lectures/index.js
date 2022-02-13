@@ -3,13 +3,8 @@ import Link from "next/link";
 import logout from "@/lib/logout";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Larr from "../../assets/Larr";
-import Eve1 from "./Eve1";
-import Eve2 from "./Eve2";
-import Eve3 from "./Eve3";
-import Eve4 from "./Eve4";
-import Eve5 from "./Eve5";
-import Eve6 from "./Eve6";
-import Eve7 from "./Eve7";
+import Lec1 from "./Lec1";
+import Lec2 from "./Lec2";
 import icon from "../../assets/images/icon.png";
 import { useUserContext } from "@/context/userContext";
 import styles from "./lectures.module.css";
@@ -41,7 +36,7 @@ const Index = () => {
   }, []);
 
   const [sidebar, setSidebar] = useState(true);
-  const [event, setEvent] = useState("event1");
+  const [event, setEvent] = useState("lecture1");
 
   const showSidebar = () => setSidebar(!sidebar);
   function handleSidebarClick(item) {
@@ -50,9 +45,9 @@ const Index = () => {
 
   function showEvent(event) {
     switch (event) {
-      case "event1":
+      case "lecture1":
         return (
-          <Eve1
+          <Lec1
             name={name}
             email={auth.user?.email}
             inst={inst}
@@ -62,9 +57,9 @@ const Index = () => {
           />
         );
         break;
-      case "event2":
+      case "lecture2":
         return (
-          <Eve2
+          <Lec2
             name={name}
             email={auth.user?.email}
             inst={inst}
@@ -73,21 +68,6 @@ const Index = () => {
             adyziaId={id}
           />
         );
-        break;
-      case "event3":
-        return <Eve3 />;
-        break;
-      case "event4":
-        return <Eve4 />;
-        break;
-      case "event5":
-        return <Eve5 />;
-        break;
-      case "event6":
-        return <Eve6 />;
-        break;
-      case "event7":
-        return <Eve7 />;
         break;
     }
   }
@@ -119,7 +99,7 @@ const Index = () => {
             <Larr onClick={showSidebar} />
           </div>
         </div>
-        <Sidebar show={sidebar} onClick={handleSidebarClick} category='events'/>
+        <Sidebar show={sidebar} onClick={handleSidebarClick} category='lectures'/>
         <div className={styles.page}>
           <div className={styles.nav}>
             <Link href="/">
