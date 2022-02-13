@@ -2,7 +2,7 @@ import styles from "./lec1.module.css";
 
 import mf from "../../assets/images/metapholio.jpg";
 
-const Eve5 = () => {
+const Eve5 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
   return (
     <>
       <div>
@@ -17,18 +17,33 @@ const Eve5 = () => {
             </div>
           </div>
           <p className={styles.desc}>
-          In this fast paced world of advanced technology at fingertips, should architects stick to the traditional methods? We offer you a chance to showcase your creativity and enhance your portfolio while stepping into the alternate realm of the virtual worlds through Metafolio. Adizya’21 brings to you Metafolio Design Hackathon - a residence design competition, presented by Buildnext. 
+            In this fast paced world of advanced technology at fingertips,
+            should architects stick to the traditional methods? We offer you a
+            chance to showcase your creativity and enhance your portfolio while
+            stepping into the alternate realm of the virtual worlds through
+            Metafolio. Adizya’21 brings to you Metafolio Design Hackathon - a
+            residence design competition, presented by Buildnext.
             <ul>
-              <li>This is a 3D modelling/designing event. Participants should create a 360 visualisation zip file using any software.</li>
               <li>
-              This event is open to architecture students of all years.
+                This is a 3D modelling/designing event. Participants should
+                create a 360 visualisation zip file using any software.
+              </li>
+              <li>This event is open to architecture students of all years.</li>
+              <li>
+                This is a submission event. participants should upload one 360
+                render zip file and one full hd render have to be submitted in
+                google form at adizya.metafolio.in.
               </li>
               <li>
-              This is a submission event. participants should upload one 360 render zip file and one full hd render have to be submitted in google form at adizya.metafolio.in.
+                At the time submission one has to mention the short description
+                of the model and how effectively design strategies have been
+                used.
               </li>
-              <li>At the time submission one has to mention the short description of the model and how effectively design strategies have been used.</li>
               <li>This is an individual event.</li>
-              <li>Any software can be used to render and make a 360 visualisation zip file.</li>
+              <li>
+                Any software can be used to render and make a 360 visualisation
+                zip file.
+              </li>
               <li>Innovativeness is the major judging criteria.</li>
             </ul>
           </p>
@@ -36,10 +51,9 @@ const Eve5 = () => {
           <p className={styles.desc_info}>
             Prizes Worth:<br></br>
             Jury choice awards: NFT rewards<br></br>
-People&apos;s choice awards: NFT rewards<br></br>
-internships / pre-placement interviews<br></br>
-Participants: NFT certificates 
-
+            People&apos;s choice awards: NFT rewards<br></br>
+            internships / pre-placement interviews<br></br>
+            Participants: NFT certificates
           </p>
 
           <p className={styles.desc_info}>

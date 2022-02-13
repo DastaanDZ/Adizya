@@ -2,7 +2,7 @@ import styles from "./lec1.module.css";
 
 import eve2 from "../../assets/images/event2.jpg";
 
-const Eve2 = () => {
+const Eve2 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
   return (
     <>
       <div>
@@ -20,14 +20,15 @@ const Eve2 = () => {
             </div>
           </div>
           <p className={styles.desc}>
-            An artist&apos;strue essence lies in his ability to create something out of nothing. If you are ready to test the limits of your artistic creativity, it is time to clean up your garage, find those unused items that are dusting on the corner, and create something magnificent that stretches your imagination to the limit by integrating your ideas into the digital world.
-
-Event Description: 
-Design a piece of furniture with the given materials. Spatial Designing using one main material.
-
-Given materials: plastic bottles, pvc pipes, cans, sticks, thermocol.
- 
-Guidelines:
+            An artist&apos;strue essence lies in his ability to create something
+            out of nothing. If you are ready to test the limits of your artistic
+            creativity, it is time to clean up your garage, find those unused
+            items that are dusting on the corner, and create something
+            magnificent that stretches your imagination to the limit by
+            integrating your ideas into the digital world. Event Description:
+            Design a piece of furniture with the given materials. Spatial
+            Designing using one main material. Given materials: plastic bottles,
+            pvc pipes, cans, sticks, thermocol. Guidelines:
             <ul>
               <li>
                 A set of materials will be provided with which participants are
@@ -43,14 +44,15 @@ Guidelines:
                 Submissions can be made using softwares or hand-drawn sketches.
               </li>
               <li>
-              Submission shall be done through the google form provided.
+                Submission shall be done through the google form provided.
               </li>
             </ul>
           </p>
 
           <p className={styles.desc_info}>
             Prizes Worth:<br></br>
-            Prizes Worth 1st Place -1000, 2nd Place - 600, 3rd Place - 400<br></br>
+            Prizes Worth 1st Place -1000, 2nd Place - 600, 3rd Place - 400
+            <br></br>
             The winner will also get a chance to sell their furniture to the
             sponsor company.
           </p>
@@ -68,7 +70,7 @@ Guidelines:
         </div>
         <div className={styles.btn_container}>
           <a
-            href="https://forms.gle/CHkNXiWDoeWHiG9v9"
+            href={`https://docs.google.com/forms/d/e/1FAIpQLSdRM_7A_VfRILVdhO31fF98P9pHVG-9uPhE66OZNfng6dzQmQ/viewform?usp=pp_url&entry.2059373958=${name}&entry.1878980868=${email}&entry.619268215=${inst}&entry.1044151569=${state}&entry.410368050=${phoneNo}&entry.1914638317=${adyziaId}`}
             className={styles.register_btn}
           >
             REGISTER
@@ -78,5 +80,4 @@ Guidelines:
     </>
   );
 };
-
 export default Eve2;

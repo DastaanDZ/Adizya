@@ -2,7 +2,7 @@ import styles from "./lec1.module.css";
 
 import lec3 from "../../assets/images/lec3.jpg";
 
-const Eve7 = () => {
+const Eve7 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
   return (
     <>
       <div>
@@ -73,7 +73,7 @@ const Eve7 = () => {
         </div>
         <div className={styles.btn_container}>
           <a
-            href="https://forms.gle/uFYbCzppxRXz5FiC8"
+            href={`https://docs.google.com/forms/d/e/1FAIpQLSda4SjWJCnxpfEzsLZba87DsrGToRr827gRwoQ0kWienLJMyw/viewform?usp=pp_url&entry.2059373958=${name}&entry.1878980868=${email}&entry.619268215=${inst}&entry.1044151569=${state}&entry.410368050=${phoneNo}&entry.1914638317=${adyziaId}`}
             className={styles.register_btn}
           >
             REGISTER

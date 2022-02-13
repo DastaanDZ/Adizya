@@ -36,12 +36,12 @@ const Index = () => {
       phoneno: phoneNo,
       yos: yos,
       gender: gender,
-      caid: caid,
+      caid: caid ? caid : "",
     };
     updateMe(auth.user.uid, data);
     toast.success("Registration Sucessfull", {
       position: "top-right",
-      autoClose: 1500,
+      autoClose: 2000,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
@@ -159,6 +159,10 @@ const Index = () => {
             <div className={styles.gen_btn_container}>
               <label className={styles.gender}>Gender</label>
               <button
+                style={{
+                  color: gender === "MALE" ? "#081832" : "",
+                  background: gender === "MALE" ? "#e8ebae" : "",
+                }}
                 className={styles.gen_button}
                 onClick={(e) => {
                   e.preventDefault();
@@ -168,6 +172,10 @@ const Index = () => {
                 MALE
               </button>
               <button
+                style={{
+                  color: gender === "FEMALE" ? "#081832" : "",
+                  background: gender === "FEMALE" ? "#e8ebae" : "",
+                }}
                 className={styles.gen_button}
                 onClick={(e) => {
                   e.preventDefault();
@@ -177,6 +185,10 @@ const Index = () => {
                 FEMALE
               </button>
               <button
+                style={{
+                  color: gender === "OTHER" ? "#081832" : "",
+                  background: gender === "OTHER" ? "#e8ebae" : "",
+                }}
                 className={styles.gen_button}
                 onClick={(e) => {
                   e.preventDefault();
@@ -188,12 +200,11 @@ const Index = () => {
             </div>
           </fieldset>
           <div className={styles.btn_container}>
-          <button type="submit" className={styles.button}>
-            REGISTER
-          </button>
+            <button type="submit" className={styles.button}>
+              REGISTER
+            </button>
+          </div>
         </div>
-        </div>
-       
       </form>
 
       <ToastContainer

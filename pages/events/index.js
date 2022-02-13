@@ -119,7 +119,11 @@ const Index = () => {
             <Larr onClick={showSidebar} />
           </div>
         </div>
-        <Sidebar show={sidebar} onClick={handleSidebarClick} category='events'/>
+        <Sidebar
+          show={sidebar}
+          onClick={handleSidebarClick}
+          category="events"
+        />
         <div className={styles.page}>
           <div className={styles.nav}>
             <Link href="/">
