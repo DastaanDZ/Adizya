@@ -33,6 +33,8 @@ const Eve4 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
               <li>Each participant has to register in the provided platform</li>
               <li>Only one person per team</li>
               <li>No registration fee</li>
+              <li>The event would comprise of 11 questions where each question has to be answered along with its image</li>
+              <li>The first 10 riddles would lead up to the mega riddle question in the end.</li>
               <li>
                 The event would comprise of 11 questions where each question has
                 to be answered along with its image

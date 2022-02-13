@@ -20,14 +20,19 @@ const Eve3 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
             </div>
           </div>
           <p className={styles.desc}>
-            Helmut Jahn once said that every building is a prototype and no two
-            are alike. We invite you to test the limits and bounds of your
-            creativity to design a unique yet interesting form. As interesting
-            as it gets, there lies a hidden challenge within which will come to
-            you on the way. Event Description: A Physical model of a building
-            will be made centralized around a chosen material from a set of
-            given materials. Given Materials:Cardboard Sheets, A4 sheets,
-            Newspaper, Synthetic clay. Guidelines:
+          Helmut Jahn once said that every building is a prototype and
+no two are alike. We invite you to test the limits and bounds of
+your creativity to design a unique yet interesting form. As interesting
+as it gets, there lies a hidden challenge within which will
+come to you on the way.
+
+<br></br>
+<br></br>
+Event Description: A Physical model of a building will be made centralized around a chosen material from a set of given materials.
+Given Materials:Cardboard Sheets, A4 sheets, Newspaper, Synthetic clay.
+<br></br>
+<br></br>
+ Guidelines:
             <ul>
               <li>The model should not be less than 30 cm sq.</li>
               <li>The model should not be too small or too big. </li>

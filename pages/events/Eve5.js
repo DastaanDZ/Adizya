@@ -35,9 +35,7 @@ const Eve5 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
                 google form at adizya.metafolio.in.
               </li>
               <li>
-                At the time submission one has to mention the short description
-                of the model and how effectively design strategies have been
-                used.
+              This is a submission event.Participants can upload full HD renders, 360 and 3D visualisations (optional) at adizya.metafolio.in.’
               </li>
               <li>This is an individual event.</li>
               <li>
@@ -51,9 +49,10 @@ const Eve5 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
           <p className={styles.desc_info}>
             Prizes Worth:<br></br>
             Jury choice awards: NFT rewards<br></br>
-            People&apos;s choice awards: NFT rewards<br></br>
-            internships / pre-placement interviews<br></br>
-            Participants: NFT certificates
+People&apos;s choice awards: NFT rewards<br></br>
+internships / pre-placement interviews<br></br>
+Participants : Certificates and Project NFTs 
+
           </p>
 
           <p className={styles.desc_info}>

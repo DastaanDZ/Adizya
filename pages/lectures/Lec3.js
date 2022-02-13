@@ -45,8 +45,7 @@ const Lec3 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
         </div>
         <div className={styles.btn_container}>
           <a
-            href={`https://docs.google.com/forms/d/e/1FAIpQLScdwvtm60JV4zsgJ99jaeA3afzfSJovXaQerQDZNfN0r5uo3w/viewform?usp=pp_url&entry.1299407733=${name}&entry.1485796384=${email}&entry.995903093=${inst}&entry.541297553=${state}&entry.1310340881=${phoneNo}&entry.1885035817=${adyziaId}
-`}
+            href={`https://docs.google.com/forms/d/e/1FAIpQLScdwvtm60JV4zsgJ99jaeA3afzfSJovXaQerQDZNfN0r5uo3w/viewform`}
             className={styles.register_btn}
           >
             REGISTER

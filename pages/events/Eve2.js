@@ -20,6 +20,18 @@ const Eve2 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
             </div>
           </div>
           <p className={styles.desc}>
+<<<<<<< HEAD
+            An artist&apos;s true essence lies in his ability to create something out of nothing. If you are ready to test the limits of your artistic creativity, it is time to clean up your garage, find those unused items that are dusting on the corner, and create something magnificent that stretches your imagination to the limit by integrating your ideas into the digital world.
+<br></br>
+<br></br>
+Event Description: 
+Design a piece of furniture with the given materials. Spatial Designing using one main material.
+<br></br>
+Given materials: plastic bottles, pvc pipes, cans, sticks, thermocol.
+<br></br> 
+<br></br> 
+Guidelines:
+=======
             An artist&apos;strue essence lies in his ability to create something
             out of nothing. If you are ready to test the limits of your artistic
             creativity, it is time to clean up your garage, find those unused
@@ -29,32 +41,38 @@ const Eve2 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
             Design a piece of furniture with the given materials. Spatial
             Designing using one main material. Given materials: plastic bottles,
             pvc pipes, cans, sticks, thermocol. Guidelines:
+>>>>>>> 15005c92a57a8b47ef96648ce19deb88a0b24ca3
             <ul>
               <li>
                 A set of materials will be provided with which participants are
-                required to design a furniture. Materials like PVC pipes, bottle
-                and its cap,{" "}
+                required to design a furniture.
               </li>
               <li>
                 The given materials can be deformed to your suitable
                 requirements.
               </li>
-              <li>File type - JPG, PNG, PDF. (Not more than 10 MB)</li>
+              <li>File type - JPG, PNG, PDF.</li>
               <li>
                 Submissions can be made using softwares or hand-drawn sketches.
               </li>
               <li>
                 Submission shall be done through the google form provided.
               </li>
+              <li>No registration fee required.
+</li>
             </ul>
           </p>
 
           <p className={styles.desc_info}>
             Prizes Worth:<br></br>
+<<<<<<< HEAD
+            Prizes Worth 1st Place -1000, 2nd Place - 600, 3rd Place - 400<br></br>
+=======
             Prizes Worth 1st Place -1000, 2nd Place - 600, 3rd Place - 400
             <br></br>
             The winner will also get a chance to sell their furniture to the
             sponsor company.
+>>>>>>> 15005c92a57a8b47ef96648ce19deb88a0b24ca3
           </p>
 
           <p className={styles.desc_info}>
@@ -64,8 +82,8 @@ const Eve2 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
           </p>
 
           <p className={styles.desc_info}>
-            Registration Closes on : 24-02-2022<br></br>
-            Submission End on : 26-02-2022<br></br>
+            REGISTRATION CLOSES ON : 24-02-2022<br></br>
+            SUBMISSION ENDS ON : 26-02-2022<br></br>
           </p>
         </div>
         <div className={styles.btn_container}>
