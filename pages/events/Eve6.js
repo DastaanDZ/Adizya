@@ -2,7 +2,7 @@ import styles from "./lec1.module.css";
 
 import eve6 from "../../assets/images/event6.jpg";
 
-const Eve6 = () => {
+const Eve6 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
   return (
     <>
       <div>
@@ -63,15 +63,15 @@ const Eve6 = () => {
           </p>
 
           <p className={styles.desc_info}>
-          <p className={styles.desc_info}>
-            Registration Closes on : 24-02-2022<br></br>
-            Event Date : 26-02-2022<br></br>
-          </p>
+            <p className={styles.desc_info}>
+              Registration Closes on : 24-02-2022<br></br>
+              Event Date : 26-02-2022<br></br>
+            </p>
           </p>
         </div>
         <div className={styles.btn_container}>
           <a
-            href="https://forms.gle/2eFSKxiCTDQXkruG7"
+            href={`https://docs.google.com/forms/d/e/1FAIpQLSfh7TcPnz1z8lH0R9yHNCQJPoUCS5Z5wG9M2KLWTkWoxD4o0A/viewform?usp=pp_url&entry.2059373958=${name}&entry.1878980868=${email}&entry.619268215=${inst}&entry.1044151569=${state}&entry.410368050=${phoneNo}&entry.1914638317=${adyziaId}`}
             className={styles.register_btn}
           >
             REGISTER

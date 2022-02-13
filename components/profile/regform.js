@@ -50,7 +50,7 @@ const ProfileReg = () => {
       phoneno: phoneNo,
       yos: yos,
       gender: gender,
-      caid: caid,
+      caid: caid ? caid : "",
     };
     updateMe(auth.user.uid, data);
     toast.success("Profile Updated", {
@@ -138,7 +138,6 @@ const ProfileReg = () => {
               required
             />
           </fieldset>
-     
         </div>
         <div className={styles.part2}>
           <fieldset className={styles.fieldset}>
@@ -216,10 +215,10 @@ const ProfileReg = () => {
             </div>
           </fieldset>
           <div className={styles.btn_container}>
-          <button type="submit" className={styles.button}>
-            UPDATE
-          </button>
-        </div>
+            <button type="submit" className={styles.button}>
+              UPDATE
+            </button>
+          </div>
         </div>
       </form>
 

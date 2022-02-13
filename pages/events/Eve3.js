@@ -2,7 +2,7 @@ import styles from "./lec1.module.css";
 
 import eve3 from "../../assets/images/event3.jpg";
 
-const Eve3 = () => {
+const Eve3 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
   return (
     <>
       <div>
@@ -40,7 +40,9 @@ Given Materials:Cardboard Sheets, A4 sheets, Newspaper, Synthetic clay.
               <li>Editing of the pictures will lead to disqualification.</li>
               <li>Open to all.</li>
               <li>No registration fee</li>
-              <li>Participants are free to choose their choice of building. </li>
+              <li>
+                Participants are free to choose their choice of building.{" "}
+              </li>
             </ul>
           </p>
 
@@ -62,7 +64,7 @@ Given Materials:Cardboard Sheets, A4 sheets, Newspaper, Synthetic clay.
         </div>
         <div className={styles.btn_container}>
           <a
-            href="https://forms.gle/MuKNwVGSBpstit4p7"
+            href={`https://docs.google.com/forms/d/e/1FAIpQLScrQ5RpdqNkYndQXDKrpIcDNKwMeCT_zT_6lRdK9Vkuz263WA/viewform?usp=pp_url&entry.2059373958=${name}&entry.1878980868=${email}&entry.619268215=${inst}&entry.1044151569=${state}&entry.410368050=${phoneNo}&entry.1914638317=${adyziaId}`}
             className={styles.register_btn}
           >
             REGISTER
