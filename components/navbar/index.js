@@ -20,7 +20,7 @@ const Index = () => {
               <Link href="/">
                 <p className={styles.login}>Home</p>
               </Link>
-              <p
+              {/* <p
                 className={styles.login}
                 onClick={() => {
                   logout();
@@ -28,7 +28,7 @@ const Index = () => {
                 }}
               >
                 Logout
-              </p>
+              </p> */}
             </div>
           </div>
     </>
