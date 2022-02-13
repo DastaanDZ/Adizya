@@ -42,6 +42,9 @@
   .nav {
     margin-bottom: 2rem;
   }
+  .login {
+    padding-right: 0px;
+  }
 }
 @media (max-width: 550px) {
   .icon {
