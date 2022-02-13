@@ -36,7 +36,7 @@ const Eve5 = () => {
           <p className={styles.desc_info}>
             Prizes Worth:<br></br>
             Jury choice awards: NFT rewards<br></br>
-People's choice awards: NFT rewards<br></br>
+People&apos;s choice awards: NFT rewards<br></br>
 internships / pre-placement interviews<br></br>
 Participants: NFT certificates 
 
