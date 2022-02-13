@@ -25,8 +25,14 @@ const Eve6 = () => {
             an event that is curated for people just like you , sharpen your
             senses and get ready to exploit it. Brace yourself for this roller
             coaster ride that will test the limit of your thinking and
-            imagination. Event Description: Visualize the space from the given
-            audio description and bring it to life. Guidelines:
+            imagination. 
+            <br></br>
+            <br></br>
+            Event Description: Visualize the space from the given
+            audio description and bring it to life. 
+            <br></br>
+            <br></br>
+            Guidelines:
             <ul>
               <li>
                 This event will be conducted live on google meet where the
@@ -52,15 +58,8 @@ const Eve6 = () => {
 
           <p className={styles.desc_info}>
             Contact<br></br>
-            Gladwin :+91 8281830428 <br></br>
-            Balaji :+91 7780793864<br></br>
-            Mahanth:+91 9515169394<br></br>
-          </p>
-
-          <p className={styles.desc_info}>
-            COORDINATORS<br></br>
-            Vaisakh<br></br>
-            Misfer<br></br>
+            Kavya    - +91 8078365963<br></br>
+            Gladwin - +91 82818 30428
           </p>
 
           <p className={styles.desc_info}>

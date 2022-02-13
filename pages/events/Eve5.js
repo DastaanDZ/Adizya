@@ -24,7 +24,7 @@ const Eve5 = () => {
               This event is open to architecture students of all years.
               </li>
               <li>
-              This is a submission event. participants should upload one 360 render zip file and one full hd render have to be submitted in google form at adizya.metafolio.in.
+              This is a submission event.Participants can upload full HD renders, 360 and 3D visualisations (optional) at adizya.metafolio.in.’
               </li>
               <li>At the time submission one has to mention the short description of the model and how effectively design strategies have been used.</li>
               <li>This is an individual event.</li>
@@ -38,7 +38,7 @@ const Eve5 = () => {
             Jury choice awards: NFT rewards<br></br>
 People&apos;s choice awards: NFT rewards<br></br>
 internships / pre-placement interviews<br></br>
-Participants: NFT certificates 
+Participants : Certificates and Project NFTs 
 
           </p>
 

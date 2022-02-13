@@ -22,10 +22,12 @@ const Eve1 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
           <p className={styles.desc}>
           In the journey to find a future in the digital world without limitations and bounds, we should not leave our past behind. As Marcus Garvey rightly said, people without the knowledge of their past are like trees without roots. Here we are trying to revamp our pasts to merge with the future without forgetting our roots.
 
-
+<br></br>
+<br></br>
 Event Description: 
 To redesign a given historic building such that it can be placed in the metaverse in a unique manner that exploits your creativity. 
-
+<br></br>
+<br></br>
 Guidelines:
 
             <ul>
@@ -38,8 +40,6 @@ Guidelines:
               </li>
               <li>Changes may be done on the facade, or the building as a whole. </li>
               <li>Submission can be done in either hard or soft copy</li>
-              <li>Time and Date (to be decided)</li>
-              <li>Registration for the competition is to be done adizya.org</li>
               <li>This is open for all students.</li>
               <li>
               No registration fee required.
@@ -59,10 +59,10 @@ Guidelines:
             Vaisakh - +91 89430 76247<br></br>
           </h4>
 
-          <h4 className={styles.desc_info}>
-            Registration End : 16-02-2022<br></br>
-            Submission Date : 20-02-2022<br></br>
-          </h4>
+          <p className={styles.desc_info}>
+            REGISTRATION CLOSES ON : 24-02-2022<br></br>
+            SUBMISSION ENDS ON : 26-02-2022<br></br>
+          </p>
         </div>
         <div className={styles.btn_container}>
           <a

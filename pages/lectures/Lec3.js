@@ -37,7 +37,7 @@ const Lec3 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
         </div>
         <div className={styles.btn_container}>
           <a
-            href={`https://docs.google.com/document/d/1RtA_1GmB6W3C9FIYZMVzB6gwmmC4a0x36VW6E51BBcU/edit?usp=sharing`}
+            href={`https://docs.google.com/forms/d/e/1FAIpQLScdwvtm60JV4zsgJ99jaeA3afzfSJovXaQerQDZNfN0r5uo3w/viewform`}
             className={styles.register_btn}
           >
             REGISTER

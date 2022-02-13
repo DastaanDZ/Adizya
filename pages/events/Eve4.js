@@ -31,7 +31,7 @@ const Eve4 = () => {
               </li>
               <li>No registration fee</li>
               <li>The event would comprise of 11 questions where each question has to be answered along with its image</li>
-              <li>he first 10 riddles would lead up to the mega riddle question in the end.</li>
+              <li>The first 10 riddles would lead up to the mega riddle question in the end.</li>
               <li>
               The platform for the event would be on a Discord server and the link would be sent after the registration.
               </li>

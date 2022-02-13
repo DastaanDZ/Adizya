@@ -26,9 +26,12 @@ your creativity to design a unique yet interesting form. As interesting
 as it gets, there lies a hidden challenge within which will
 come to you on the way.
 
-
+<br></br>
+<br></br>
 Event Description: A Physical model of a building will be made centralized around a chosen material from a set of given materials.
 Given Materials:Cardboard Sheets, A4 sheets, Newspaper, Synthetic clay.
+<br></br>
+<br></br>
  Guidelines:
             <ul>
               <li>The model should not be less than 30 cm sq.</li>
