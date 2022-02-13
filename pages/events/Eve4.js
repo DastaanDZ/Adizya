@@ -22,21 +22,21 @@ const Eve4 = () => {
           <p className={styles.desc}>
           “Tick tick tick… time is running out detective, time waits for no man and I wait for no batman”. Remember this iconic line riddler says to the dark knight every now and then? Well, we are here to give you quite the adrenaline rush that this iconic rivalry has given us over the years. Presenting you “Riddle me this”, an exciting and intriguing quiz with amazing prizes and lots of fun presented to you by ADIZYA in collaboration with ENQUIRE QUIZ CLUB NITC.
             <ul>
-              <li>●	The event is open to all </li>
+              <li>The event is open to all </li>
               <li>
-              ●	Each participant has to register in the provided platform 
+              Each participant has to register in the provided platform 
               </li>
               <li>
-              ●	Only one person per team
+              Only one person per team
               </li>
-              <li>●	No registration fee</li>
-              <li>●	The event would comprise of 11 questions where each question has to be answered along with its image</li>
+              <li>No registration fee</li>
+              <li>The event would comprise of 11 questions where each question has to be answered along with its image</li>
               <li>he first 10 riddles would lead up to the mega riddle question in the end.</li>
               <li>
-              ●	The platform for the event would be on a Discord server and the link would be sent after the registration.
+              The platform for the event would be on a Discord server and the link would be sent after the registration.
               </li>
               <li>
-              ●	The event would be hosted on 20th of February.
+              The event would be hosted on 20th of February.
               </li>
             </ul>
           </p>
@@ -58,8 +58,6 @@ const Eve4 = () => {
           </p>
 
           <p className={styles.desc_info}>
-            DEADLINE DATE<br></br>
-            Registration Start :10-02-2022 (tentatively)<br></br>
             REGISTRATION CLOSES ON : 19-02-2022<br></br>
             EVENT DATE : 20-02-2022
           </p>

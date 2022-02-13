@@ -52,7 +52,7 @@ const Eve1 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
           </p>
 
           <h4 className={styles.desc_info}>
-            Prizes Worth 1st Place -1k, 2nd Place - 500, 3rd Place - 200
+            Prizes Worth 1st Place -1000, 2nd Place - 600, 3rd Place - 400
           </h4>
 
           <h4 className={styles.desc_info}>
@@ -62,11 +62,8 @@ const Eve1 = ({ name, email, inst, state, phoneNo, adyziaId }) => {
           </h4>
 
           <h4 className={styles.desc_info}>
-            DEADLINE DATE<br></br>
-            Registration Start :10-02-2022 (tentatively)<br></br>
             Registration End : 16-02-2022<br></br>
             Submission Date : 20-02-2022<br></br>
-            Result: 28-02-2022
           </h4>
         </div>
         <div className={styles.btn_container}>

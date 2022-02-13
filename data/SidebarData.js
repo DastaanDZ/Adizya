@@ -16,12 +16,12 @@ const SidebarData = [
         value: 'monometria'
     },
     {
-        title:'Faux-paw-gleam',
+        title:'Riddle me this',
         component:'event4',
         value: 'fauxpawgleam'
     },
     {
-        title:'Confero Veritas',
+        title:'Metafolio',
         component: 'event5',
         value: 'conferoveritas'
     },

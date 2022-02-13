@@ -50,11 +50,8 @@ const Eve3 = () => {
           </p>
 
           <p className={styles.desc_info}>
-            DEADLINE DATE<br></br>
-            Registration Start :10-02-2022 (tentatively)<br></br>
-            Registration End : 16-02-2022<br></br>
-            Submission Date : 20-02-2022<br></br>
-            Result: 28-02-2022
+            Registration Closes on : 24-02-2022<br></br>
+            Submission End on : 26-02-2022<br></br>
           </p>
         </div>
         <div className={styles.btn_container}>

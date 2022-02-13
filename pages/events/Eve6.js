@@ -29,24 +29,24 @@ const Eve6 = () => {
             audio description and bring it to life. Guidelines:
             <ul>
               <li>
-                ● This event will be conducted live on google meet where the
+                This event will be conducted live on google meet where the
                 participants are required to text the message in the chat box in
                 the respective platform.
               </li>
               <li>
-                ● Participation can be done individually or in a group of 2.
+                Participation can be done individually or in a group of 2.
               </li>
-              <li>● Total number of questions to be answered is 20. </li>
-              <li>● Time given for each answer will be 20 seconds. </li>
-              <li>● First person to answer will get the point.</li>
-              <li>● Multiple answers will not be counted. </li>
+              <li>Total number of questions to be answered is 20. </li>
+              <li>Time given for each answer will be 20 seconds. </li>
+              <li>First person to answer will get the point.</li>
+              <li>Multiple answers will not be counted. </li>
               <li>
-                ● Participants need to turn on the video during the event.
+                Participants need to turn on the video during the event.
               </li>
               <li>
-                ● Registration for the competition is to be done adizya.org
+                Registration for the competition is to be done adizya.org
               </li>
-              <li>● Submission is done on</li>
+              <li>Submission is done on</li>
             </ul>
           </p>
 
@@ -71,11 +71,10 @@ const Eve6 = () => {
           </p>
 
           <p className={styles.desc_info}>
-            DEADLINE DATE<br></br>
-            Registration Start :10-02-2022 (tentatively)<br></br>
-            Registration End : 16-02-2022<br></br>
-            Submission Date : 20-02-2022<br></br>
-            Result: 28-02-2022
+          <p className={styles.desc_info}>
+            Registration Closes on : 24-02-2022<br></br>
+            Event Date : 26-02-2022<br></br>
+          </p>
           </p>
         </div>
         <div className={styles.btn_container}>

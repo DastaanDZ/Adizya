@@ -52,7 +52,7 @@ const Eve2 = () => {
 
           <p className={styles.desc_info}>
             Prizes Worth:<br></br>
-            1st Place -1k, 2nd Place - 500, 3rd Place - 200<br></br>
+            Prizes Worth 1st Place -1000, 2nd Place - 600, 3rd Place - 400<br></br>
             The winner will also get a chance to sell their furniture to the
             sponsor company.
           </p>
@@ -64,11 +64,8 @@ const Eve2 = () => {
           </p>
 
           <p className={styles.desc_info}>
-            DEADLINE DATE<br></br>
-            Registration Start :10-02-2022 (tentatively)<br></br>
-            Registration End : 16-02-2022<br></br>
-            Submission Date : 20-02-2022<br></br>
-            Result: 28-02-2022
+            Registration Closes on : 24-02-2022<br></br>
+            Submission End on : 26-02-2022<br></br>
           </p>
         </div>
         <div className={styles.btn_container}>
