@@ -20,25 +20,7 @@ const index = () => {
               </Link>
               <h1 className={styles.h1}>Team</h1>
             </div>
-            <div className={styles.wrapper}> 
-            {TeamData.map((items, index) =>{
-                return(
-                    <div key={index} className={styles.profile_container}>
-                    <a href={items.profile} className={styles.profile}> 
-                        <img src={items.pic.src} alt={items.title} className={styles.pic}/>
-                        <div className={styles.overlay}></div>
-                        <div className={styles.profile_info_container}>
-                        <div className={styles.detail_container}> 
-                            <p className={styles.detail1}>{items.title}</p>
-                            <p className={styles.detail2}>{items.position}</p>
-                        </div>
-                            <Linkden/>
-                        </div>
-                    </a>
-                    </div>
-                )
-            })}
-            </div>
+            <p className={styles.dec}></p>
       </div>
     </>
   )

@@ -54,7 +54,7 @@ const Eve6 = () => {
             Judging Criteria : The participant with the most points wins.{" "}
             <br></br>
             Prizes Worth:<br></br>
-            1st Place -1k, 2nd Place - 500, 3rd Place - 200
+            Prizes Worth 1st Place -1000, 2nd Place - 600, 3rd Place - 400
           </p>
 
           <p className={styles.desc_info}>
