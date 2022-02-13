@@ -7,7 +7,7 @@ const Eve4 = () => {
     <>
       <div>
         <div className={styles.title}>
-          <h1 className={styles.h1}>Faux-paw-gleam</h1>
+          <h1 className={styles.h1}>Riddle me this</h1>
           <hr className={styles.hr} />
         </div>
         <div className={styles.info}>
@@ -20,57 +20,48 @@ const Eve4 = () => {
             </div>
           </div>
           <p className={styles.desc}>
-            Glow, baby, glow. From fireflies to glow worms, bioluminescence is
-            ready to bright the future. We are trying to create a hybrid of the
-            bioluminescent creatures and the wonders of the futuristic world in
-            order to create a virtual companion. Problem statement : To create a
-            faux pet with bioluminescence in the metaverse. Entry Fees: Free
-            Guidelines:
+          “Tick tick tick… time is running out detective, time waits for no man and I wait for no batman”. Remember this iconic line riddler says to the dark knight every now and then? Well, we are here to give you quite the adrenaline rush that this iconic rivalry has given us over the years. Presenting you “Riddle me this”, an exciting and intriguing quiz with amazing prizes and lots of fun presented to you by ADIZYA in collaboration with ENQUIRE QUIZ CLUB NITC.
             <ul>
-              <li>● This competition is open to all.</li>
+              <li>●	The event is open to all </li>
               <li>
-                ● A visual representation of the pet to be provided with a
-                character description{" "}
+              ●	Each participant has to register in the provided platform 
               </li>
               <li>
-                ● Any 3d modeling software may be used as per convenience.
+              ●	Only one person per team
               </li>
-              <li>● Hand drawn sketches are also accepted for submissions.</li>
-              <li>● Submission to be made in PDF, PNG , JPG or JPEG format.</li>
-              <li>● Participation is to be done individually only.</li>
+              <li>●	No registration fee</li>
+              <li>●	The event would comprise of 11 questions where each question has to be answered along with its image</li>
+              <li>he first 10 riddles would lead up to the mega riddle question in the end.</li>
               <li>
-                ● The size of the submission file should be less than 10 mb.{" "}
+              ●	The platform for the event would be on a Discord server and the link would be sent after the registration.
               </li>
               <li>
-                ● Registration for the competition is to be done adizya.org{" "}
+              ●	The event would be hosted on 20th of February.
               </li>
-              <li>● Submission is done on </li>
-            </ul>
-            <ul>
-              Judging criteria:
-              <li>● Aesthetics of the pet</li>
-              <li>● Creativity</li>
-              <li>● Quality of work</li>
             </ul>
           </p>
 
           <p className={styles.desc_info}>
             Prizes Worth:<br></br>
-            1st Place -1k, 2nd Place - 500, 3rd Place - 200
+            1st Prize: 3000/-<br></br>
+2nd Prize: 2500/-<br></br>
+3rd Prize: 2000/-<br></br>
+
           </p>
 
           <p className={styles.desc_info}>
             Contact<br></br>
-            Avas : +91 8943076247 <br></br>
-            Abhiraj : +91 88070878<br></br>
+            Vaisakh - +91 89430 76247<br></br>
+            Vishal - +91 83742 45391
+
+<br></br>
           </p>
 
           <p className={styles.desc_info}>
             DEADLINE DATE<br></br>
             Registration Start :10-02-2022 (tentatively)<br></br>
-            Registration End : 16-02-2022<br></br>
-            Submission Date : 20-02-2022<br></br>
-            Result: 28-02-2022
+            REGISTRATION CLOSES ON : 19-02-2022<br></br>
+            EVENT DATE : 20-02-2022
           </p>
         </div>
         <div className={styles.btn_container}>
