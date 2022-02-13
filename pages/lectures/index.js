@@ -71,7 +71,16 @@ const Index = () => {
         );
         break;
       case "lecture3":
-        return <Lec3 />;
+        return (
+          <Lec3
+            name={name}
+            email={auth.user?.email}
+            inst={inst}
+            state={state}
+            phoneNo={phoneNo}
+            adyziaId={id}
+          />
+        );
         break;
     }
   }

@@ -75,19 +75,64 @@ const Index = () => {
         );
         break;
       case "event3":
-        return <Eve3 />;
+        return (
+          <Eve3
+            name={name}
+            email={auth.user?.email}
+            inst={inst}
+            state={state}
+            phoneNo={phoneNo}
+            adyziaId={id}
+          />
+        );
         break;
       case "event4":
-        return <Eve4 />;
+        return (
+          <Eve4
+            name={name}
+            email={auth.user?.email}
+            inst={inst}
+            state={state}
+            phoneNo={phoneNo}
+            adyziaId={id}
+          />
+        );
         break;
       case "event5":
-        return <Eve5 />;
+        return (
+          <Eve5
+            name={name}
+            email={auth.user?.email}
+            inst={inst}
+            state={state}
+            phoneNo={phoneNo}
+            adyziaId={id}
+          />
+        );
         break;
       case "event6":
-        return <Eve6 />;
+        return (
+          <Eve6
+            name={name}
+            email={auth.user?.email}
+            inst={inst}
+            state={state}
+            phoneNo={phoneNo}
+            adyziaId={id}
+          />
+        );
         break;
       case "event7":
-        return <Eve7 />;
+        return (
+          <Eve7
+            name={name}
+            email={auth.user?.email}
+            inst={inst}
+            state={state}
+            phoneNo={phoneNo}
+            adyziaId={id}
+          />
+        );
         break;
     }
   }

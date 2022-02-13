@@ -2,7 +2,7 @@ import styles from "./lec1.module.css";
 
 import eve2 from "../../assets/images/event2.jpg";
 
-const Eve2 = () => {
+export default function Eve2({ name, email, inst, state, phoneNo, adyziaId }) {
   return (
     <>
       <div>
@@ -79,5 +79,4 @@ const Eve2 = () => {
       </div>
     </>
   );
-};
-export default Eve2;
+}
