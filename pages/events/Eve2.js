@@ -2,7 +2,7 @@ import styles from "./lec1.module.css";
 
 import eve2 from "../../assets/images/event2.jpg";
 
-const Eve2 = (z) => {
+const Eve2 = () => {
   return (
     <>
       <div>
