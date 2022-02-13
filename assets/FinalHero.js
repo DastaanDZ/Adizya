@@ -109,6 +109,7 @@ const FinalHero = () => {
           fill-opacity="0.01"
         />
       </g>
+      <Link href='/aboutus'> 
       <path
         id={changecolor1 ? styles.active1 : styles.inactive1}
         onMouseEnter={fillcolor1}
@@ -116,6 +117,7 @@ const FinalHero = () => {
         d="M672.079 44H792.5L807.5 69.9236L792.5 98.529H705.825H672.079L656.761 69.9236L672.079 44Z"
         fill="#081832"
       />
+      </Link>
       <path
         d="M488 130.5L541.567 69.9236H656.761M656.761 69.9236L672.079 44H792.5L807.5 69.9236L792.5 98.529H705.825H672.079L656.761 69.9236Z"
         stroke="#E8EBAE"

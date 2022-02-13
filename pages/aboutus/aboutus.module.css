@@ -1,0 +1,237 @@
+.h2 {
+  margin-bottom: 12.75px;
+  color: #e8ebae;
+  font-family: "Raleway", sans-serif !important;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+}
+.h1 {
+  margin-top: 0px;
+  animation: 2s moveDown;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+.subheading {
+  margin-top: 0px;
+  animation: 2s moveDown;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  font-size: 2.2rem;
+}
+@keyframes moveDown {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0rem);
+  }
+}
+
+.hr {
+  width: 11%;
+}
+.desc {
+  font-family: "Raleway", sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #e8ebae;
+  animation: 2s fadeIn;
+  animation-fill-mode: forwards;
+
+  visibility: hidden;
+  padding-left: 4.33rem;
+  text-align: left;
+}
+
+.desc_info {
+  font-family: "Raleway", sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #e8ebae;
+  animation: 2s fadeIn;
+  animation-fill-mode: forwards;
+
+  visibility: hidden;
+  text-align: center;
+  margin-top: 3rem;
+}
+.desc_info_1 {
+  font-family: "Raleway", sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #e8ebae;
+  animation: 2s fadeIn;
+  animation-fill-mode: forwards;
+
+  visibility: hidden;
+  text-align: center;
+  margin-top: 3rem;
+}
+.bg {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  object-position: center;
+  margin-top: 0rem;
+  opacity: 0.18;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(2rem);
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0rem);
+  }
+}
+
+.pic1 {
+  width: 100%;
+  /* height: 310px; */
+  /* float: left; */
+  /* margin: 1.56rem; */
+  /* animation: 2s moveDown;
+      animation-fill-mode: forwards;
+    
+      visibility: hidden; */
+}
+
+/* @keyframes moveDown {
+      0% {
+        opacity: 0;
+        transform: translateY(2rem);
+      }
+      100% {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0rem);
+      }
+    } */
+
+.pic2 {
+  width: 380px;
+  height: 310px;
+  display: none;
+}
+.title {
+  margin-bottom: 1.33rem;
+  padding-left: 4.33rem;
+}
+.register_btn {
+  font-family: "Raleway", sans-serif !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.588068px solid rgba(232, 235, 174, 0.43);
+  border-radius: 6.55px;
+  width: 131px;
+  height: 38px;
+  color: #e8ebae;
+  margin-bottom: 2rem;
+}
+.register_btn:hover {
+  color: #081832;
+  background-color: #e8ebae;
+}
+.btn_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pic_container {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1220px) {
+}
+
+@media (max-width: 1024px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+  .desc,
+  .desc_info {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .desc {
+    padding: 0rem 1.33rem;
+  }
+  .pic1 {
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+  }
+  .pic2 {
+    width: 100%;
+    height: 100%;
+    /* display: grid; */
+  }
+  .pic_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .pic12_container {
+    width: 100%;
+  }
+  .title {
+    margin-bottom: 1.7rem;
+  }
+  .h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 901px) {
+  .pic12_container {
+    margin-bottom: 1rem;
+  }
+  .desc,
+  .desc_info {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .title {
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .h1 {
+    font-size: 40px;
+    font-weight: 100;
+  }
+  .hr {
+    width: 33%;
+  }
+  .pic_container {
+    margin-bottom: 0px;
+  }
+  .subheading {
+    margin-top: 0px;
+    animation: 2s moveDown;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    font-size: 1.8rem;
+  }
+  .bg {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
