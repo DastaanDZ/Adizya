@@ -20,15 +20,14 @@ const Eve2 = () => {
             </div>
           </div>
           <p className={styles.desc}>
-            An artist&apos;s true essence lies in his ability to create
-            something out of nothing. If you are ready to test the limits of
-            your artistic creativity, it is time to clean up your garage, find
-            those unused items that are dusting on the corner, and create
-            something magnificent that stretches your imagination to the limit
-            by integrating your ideas into the digital world. Event Description:
-            Design a piece of furniture with the materials p Spacial Designing
-            using one main material to provide stability to the structures one
-            can add materials like steel, Guidelines:
+            An artist&apos;strue essence lies in his ability to create something out of nothing. If you are ready to test the limits of your artistic creativity, it is time to clean up your garage, find those unused items that are dusting on the corner, and create something magnificent that stretches your imagination to the limit by integrating your ideas into the digital world.
+
+Event Description: 
+Design a piece of furniture with the given materials. Spatial Designing using one main material.
+
+Given materials: plastic bottles, pvc pipes, cans, sticks, thermocol.
+ 
+Guidelines:
             <ul>
               <li>
                 A set of materials will be provided with which participants are
@@ -44,8 +43,7 @@ const Eve2 = () => {
                 Submissions can be made using softwares or hand-drawn sketches.
               </li>
               <li>
-                Submission & Registration for the competition is to be done
-                adizya.org
+              Submission shall be done through the google form provided.
               </li>
             </ul>
           </p>

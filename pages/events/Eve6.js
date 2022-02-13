@@ -40,13 +40,6 @@ const Eve6 = () => {
               <li>Time given for each answer will be 20 seconds. </li>
               <li>First person to answer will get the point.</li>
               <li>Multiple answers will not be counted. </li>
-              <li>
-                Participants need to turn on the video during the event.
-              </li>
-              <li>
-                Registration for the competition is to be done adizya.org
-              </li>
-              <li>Submission is done on</li>
             </ul>
           </p>
 

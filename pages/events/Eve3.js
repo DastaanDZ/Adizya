@@ -20,21 +20,24 @@ const Eve3 = () => {
             </div>
           </div>
           <p className={styles.desc}>
-            Helmut Jahn once said that every building is a prototype and no two
-            are alike. We invite you to test the limits and bounds of your
-            creativity to design a unique yet interesting form. As interesting
-            as it gets, there lies a hidden challenge within which will come to
-            you on the way. Event Description: A Physical model of a building
-            will be made centralized around a chosen material from a set of
-            given materials. Guidelines:
+          Helmut Jahn once said that every building is a prototype and
+no two are alike. We invite you to test the limits and bounds of
+your creativity to design a unique yet interesting form. As interesting
+as it gets, there lies a hidden challenge within which will
+come to you on the way.
+
+
+Event Description: A Physical model of a building will be made centralized around a chosen material from a set of given materials.
+Given Materials:Cardboard Sheets, A4 sheets, Newspaper, Synthetic clay.
+ Guidelines:
             <ul>
               <li>The model should not be less than 30 cm sq.</li>
               <li>The model should not be too small or too big. </li>
               <li>File type - JPG, PNG, PDF. (Not more than 5 MB)</li>
               <li>Editing of the pictures will lead to disqualification.</li>
               <li>Open to all.</li>
-              <li>Registration for the competition is to be done adizya.org</li>
-              <li>Submission is done on </li>
+              <li>No registration fee</li>
+              <li>Participants are free to choose their choice of building. </li>
             </ul>
           </p>
 
