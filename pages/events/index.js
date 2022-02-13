@@ -36,7 +36,7 @@ const Index = () => {
       });
     } else {
       router.push("/");
-      signInWithGoogle(setName, setIsNewReg);
+      signInWithGoogle(setName, setIsNewReg, "/events");
     }
   }, []);
 

@@ -11,7 +11,15 @@ export default function UserContextProvider({ children }) {
 
   return (
     <UserContext.Provider
-      value={{ auth, name, setName, id, setId, isNewReg, setIsNewReg }}
+      value={{
+        auth,
+        name,
+        setName,
+        id,
+        setId,
+        isNewReg,
+        setIsNewReg,
+      }}
     >
       {children}
     </UserContext.Provider>

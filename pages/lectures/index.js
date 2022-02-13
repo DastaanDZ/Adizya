@@ -32,7 +32,7 @@ const Index = () => {
       });
     } else {
       router.push("/");
-      signInWithGoogle(setName, setIsNewReg);
+      signInWithGoogle(setName, setIsNewReg, "/lectures");
     }
   }, []);
 
@@ -71,9 +71,7 @@ const Index = () => {
         );
         break;
       case "lecture3":
-        return (
-          <Lec3/>
-        );
+        return <Lec3 />;
         break;
     }
   }
@@ -105,7 +103,11 @@ const Index = () => {
             <Larr onClick={showSidebar} />
           </div>
         </div>
-        <Sidebar show={sidebar} onClick={handleSidebarClick} category='lectures'/>
+        <Sidebar
+          show={sidebar}
+          onClick={handleSidebarClick}
+          category="lectures"
+        />
         <div className={styles.page}>
           <div className={styles.nav}>
             <Link href="/">
