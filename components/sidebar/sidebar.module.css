@@ -126,7 +126,7 @@
     position: inherit;
     width: 100%;
   }
-  .side_menu_active {
+  .side_menu_lectures {
     height: 0rem;
     overflow: hidden;
   }
