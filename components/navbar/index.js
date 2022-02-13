@@ -1,10 +1,15 @@
 import Link from 'next/link';
 
 import icon from '../../assets/images/icon.png'
+import logout from '@/lib/logout';
+import Router, { useRouter } from 'next/router';
 
 import styles from '../../components/navbar/navbar.module.css'
 
 const Index = () => {
+
+  const router = useRouter();
+
   return (
     <>
       <div className={styles.nav}>
