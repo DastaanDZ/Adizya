@@ -9,6 +9,21 @@ const SidebarLectureData = [
         title:'Ignite Thrissur',
         component: 'lecture2',
         value: 'ignitethrissur'
+    },
+    {
+        title:'Coming Soon...',
+        component: 'event7',
+        value: 'comingsoon'
+    },
+    {
+        title:'Coming Soon...',
+        component: 'event7',
+        value: 'comingsoon'
+    },
+    {
+        title:'Coming Soon...',
+        component: 'event7',
+        value: 'comingsoon'
     }
 ]
 

@@ -14,7 +14,7 @@
   height: 100vh;
   background: #e8ebae;
   position: fixed;
-  width: 10rem;
+  width: 21rem;
   transition: all 0.2s;
 }
 .side_menu_lectures {
@@ -85,7 +85,7 @@
 .hidden_active_lectures {
   background: #e8ebae;
   height: 100%;
-  width: 10rem;
+  width: 21rem;
   transition: 0.2s;
 }
 .hidden_lectures {
