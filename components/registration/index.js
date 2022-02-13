@@ -144,7 +144,7 @@ const Index = () => {
             />
           </fieldset>
 
-          <fieldset className={styles.fieldset} required>
+          <fieldset className={styles.fieldset}>
             <label>CA Referral ID</label>
             <input
               type="text"

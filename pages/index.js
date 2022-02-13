@@ -22,7 +22,6 @@ export default function Home() {
     <Head>
       <title>Adizya&apos;21</title>
       <meta name="description" content="Adizya, revolution del' art, is an architectural extravaganza taking place during Tathva, the technical fest of NIT Calicut.Adizya brings to you an exclusive space to showcase your creativity and incline towards art and design, providing us with an opportunity to colour outside the lines and weave reality out of the imagination in our minds."
-      
       />
     </Head>
       <Landing />
