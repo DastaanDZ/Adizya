@@ -5,6 +5,7 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import Larr from "../../assets/Larr";
 import Lec1 from "./Lec1";
 import Lec2 from "./Lec2";
+import Lec3 from "./Lec3";
 import icon from "../../assets/images/icon.png";
 import { useUserContext } from "@/context/userContext";
 import styles from "./lectures.module.css";
@@ -67,6 +68,11 @@ const Index = () => {
             phoneNo={phoneNo}
             adyziaId={id}
           />
+        );
+        break;
+      case "lecture3":
+        return (
+          <Lec3/>
         );
         break;
     }

@@ -44,8 +44,8 @@
   animation-fill-mode: forwards;
 
   visibility: hidden;
-  padding-left: 4.33rem;
-  text-align: left;
+  text-align: center;
+  padding: 0rem 4.33rem;
 }
 
 .desc_info {
