@@ -49,6 +49,7 @@ const FinalHero = () => {
         stroke="#E8EBAE"
         stroke-width="1.37649"
       />
+      <Link href='/lectures'> 
       <g className={styles.reveal}>
         <path
           d="M576.516 363.928L463.701 209.395L546.455 128.01L576.516 363.928Z"
@@ -56,6 +57,8 @@ const FinalHero = () => {
           fill-opacity="1"
         />
       </g>
+      </Link>
+      <Link href='/aboutus'> 
       <g className={styles.reveal}>
         <path
           d="M461.742 203.576L455.188 28.6768L545.224 121.473L461.742 203.576Z"
@@ -63,6 +66,7 @@ const FinalHero = () => {
           fill-opacity="1"
         />
       </g>
+      </Link>
       <g className={styles.reveal}>
         <path
           d="M450.906 28.6768L353.016 153.643L457.848 206.059L450.906 28.6768Z"
