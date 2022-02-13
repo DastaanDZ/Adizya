@@ -40,7 +40,7 @@ const Eve3 = () => {
 
           <p className={styles.desc_info}>
             Prizes Worth:<br></br>
-            1st Place -1k, 2nd Place - 500, 3rd Place - 200
+            Prizes Worth 1st Place -1000, 2nd Place - 600, 3rd Place - 400
           </p>
 
           <p className={styles.desc_info}>
